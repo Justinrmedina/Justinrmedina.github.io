@@ -131,6 +131,12 @@
                 <div class="image-container">
                     <img src="ANOVA small.png" alt="Image 2">
                 </div>
+                <div class="image-container">
+                    <img src="ANOVA small.png" alt="Image 3">
+                </div>
+                <div class="image-container">
+                    <img src="ANOVA small.png" alt="Image 4">
+                </div>
                 <!-- Add more image containers as needed -->
             </div>
             <button class="next" onclick="scrollGallery(1)">❯</button>
