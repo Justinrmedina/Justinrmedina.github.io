@@ -59,12 +59,14 @@
             flex: 0 0 auto;
         }
 
+        .image-container:hover {
+            transform: scale(1.1);
+        }
 
         .image-container img {
             width: 100%;
             height: auto;
-            max-width: 800px;
-            max-height: 500px;
+            max-width: 100%; /* Set max-width to 100% for responsive images */
             border-radius: 8px;
         }
 
@@ -72,12 +74,19 @@
             text-align: center;
             padding: 20px;
         }
+        
+        /* Media query for small screens (e.g., mobile devices) */
+        @media screen and (max-width: 600px) {
+            .image-container {
+                margin: 5px; /* Adjust margin for smaller screens */
+            }
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Justin's Dynamic Image Gallery with Larger Image</h1>
+        <h1>Justin's Data Portfolio</h1>
         <p>Showcasing data projects and a dynamically generated image gallery</p>
     </header>
 
@@ -122,6 +131,7 @@
             'ANOVA small.png',
             'ANOVA small.png',
             'ANOVA small.png',
+            'ANOVA small.png',
             // Add more image URLs as needed
         ];
 
@@ -144,6 +154,7 @@
     </script>
 </body>
 </html>
+
 
 
 
