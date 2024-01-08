@@ -54,6 +54,7 @@
         }
 
         .image-container {
+            position: center;
             margin: 10px;
             overflow: hidden;
             border-radius: 8px;
