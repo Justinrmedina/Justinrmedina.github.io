@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Justin's Portfolio with Larger Image Gallery</title>
+    <title>Your Portfolio with Single Image Gallery</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -39,12 +39,15 @@
             overflow: hidden;
             white-space: nowrap;
             margin-bottom: 20px;
+            display: flex;
+            justify-content: center; /* Center the child elements horizontally */
+            align-items: center; /* Center the child elements vertically */
         }
 
         .gallery {
             display: flex;
             transition: transform 0.3s ease-in-out;
-            overflow: hidden;
+            overflow: hidden; /* Hide overflow to show only one image container at a time */
         }
 
         .image-container {
@@ -98,7 +101,7 @@
 <body>
 
     <header>
-        <h1>Your Portfolio with Larger Image Gallery</h1>
+        <h1>Your Portfolio with Single Image Gallery</h1>
         <p>Showcasing data projects and a navigable image gallery with larger images</p>
     </header>
 
@@ -147,7 +150,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Your Portfolio with Larger Image Gallery</p>
+        <p>&copy; 2024 Your Portfolio with Single Image Gallery</p>
     </footer>
 
     <script>
@@ -171,6 +174,7 @@
     </script>
 </body>
 </html>
+
 
 
 
