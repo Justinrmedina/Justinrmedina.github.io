@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Justin's Portfolio with Image Gallery</title>
+    <title>Your Portfolio with Image Gallery</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -55,8 +55,9 @@
         }
 
         .image-container img {
-            width: auto;
-            height: auto;
+            width: 100%; /* Make the image take the full width of its container */
+            height: auto; /* Maintain the aspect ratio */
+            max-width: 300px; /* Set a maximum width to control the size */
             border-radius: 8px;
         }
 
@@ -69,8 +70,8 @@
 <body>
 
     <header>
-        <h1>Justin's Portfolio with Image Gallery</h1>
-        <p>Showcasing data projects and data visuals</p>
+        <h1>Your Portfolio with Image Gallery</h1>
+        <p>Showcasing data projects and beautiful images</p>
     </header>
 
     <section>
@@ -98,19 +99,20 @@
         <div class="gallery">
             <!-- Add image containers here -->
             <div class="image-container">
-                <img src="ANOVA small.jpg" alt="Image 1">
+                <img src="ANOVA.png" alt="Image 1">
             </div>
             <div class="image-container">
-                <img src="ANOVA small.jpg" alt="Image 2">
+                <img src="ANOVA.png" alt="Image 2">
             </div>
             <!-- Add more image containers as needed -->
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Justin's Portfolio with Image Gallery</p>
+        <p>&copy; 2024 Your Portfolio with Image Gallery</p>
     </footer>
 
 </body>
 </html>
+
 
