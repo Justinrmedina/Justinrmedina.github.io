@@ -66,7 +66,7 @@
         .image-container img {
             width: 100%;
             height: auto;
-            max-width: 100%; /* Set max-width to 100% for responsive images */
+            max-width: 800px; /* Set max-width to 100% for responsive images */
             border-radius: 8px;
         }
 
