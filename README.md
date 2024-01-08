@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio with Image Gallery and Navigation Arrows</title>
+    <title>Your Portfolio with Larger Image Gallery</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -62,7 +63,8 @@
         .image-container img {
             width: 100%;
             height: auto;
-            max-width: 300px;
+            max-width: 500px; /* Adjust this value to control the maximum width of the images */
+            max-height: 300px; /* Adjust this value to control the maximum height of the images */
             border-radius: 8px;
         }
 
@@ -95,8 +97,8 @@
 <body>
 
     <header>
-        <h1>Your Portfolio with Image Gallery and Navigation Arrows</h1>
-        <p>Showcasing data projects and a navigable image gallery</p>
+        <h1>Your Portfolio with Larger Image Gallery</h1>
+        <p>Showcasing data projects and a navigable image gallery with larger images</p>
     </header>
 
     <section>
@@ -144,7 +146,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Your Portfolio with Image Gallery and Navigation Arrows</p>
+        <p>&copy; 2024 Your Portfolio with Larger Image Gallery</p>
     </footer>
 
     <script>
@@ -169,5 +171,6 @@
     </script>
 </body>
 </html>
+
 
 
