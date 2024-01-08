@@ -90,6 +90,7 @@
             background: none;
             border: none;
             outline: none;
+            margin: 0 10px; /* Add margin to create space between arrows and images */
         }
 
         .prev {
@@ -109,7 +110,7 @@
 <body>
 
     <header>
-        <h1>Justin's Dynamic Image Gallery with Larger Image</h1>
+        <h1>Your Dynamic Image Gallery with Larger Image</h1>
         <p>Showcasing data projects and a dynamically generated image gallery</p>
     </header>
 
@@ -152,7 +153,6 @@
     <script>
         const gallery = document.getElementById('dynamic-gallery');
         const images = [
-            'ANOVA small.png',
             'ANOVA small.png',
             'ANOVA small.png',
             'ANOVA small.png',
