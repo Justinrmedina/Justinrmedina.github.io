@@ -44,6 +44,7 @@
         .gallery {
             display: flex;
             transition: transform 0.3s ease-in-out;
+            overflow: hidden;
         }
 
         .image-container {
