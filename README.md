@@ -38,23 +38,18 @@
         }
 
         .gallery-container {
-            position: relative;
-            overflow: hidden;
+            overflow-x: auto; /* Enable horizontal scrolling */
             white-space: nowrap;
             margin-bottom: 20px;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: center; /* Center the child elements horizontally */
         }
 
         .gallery {
             display: flex;
-            transition: transform 0.3s ease-in-out;
-            overflow: hidden;
         }
 
         .image-container {
-            position: center;
             margin: 10px;
             overflow: hidden;
             border-radius: 8px;
@@ -76,32 +71,6 @@
             border-radius: 8px;
         }
 
-        .image-link {
-            text-decoration: none;
-            color: inherit;
-        }
-
-        .prev, .next {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            font-size: 24px;
-            cursor: pointer;
-            color: #333;
-            background: none;
-            border: none;
-            outline: none;
-            margin: 0 10px; /* Add margin to create space between arrows and images */
-        }
-
-        .prev {
-            left: 10px;
-        }
-
-        .next {
-            right: 10px;
-        }
-
         footer {
             text-align: center;
             padding: 20px;
@@ -111,7 +80,7 @@
 <body>
 
     <header>
-        <h1>Your Dynamic Image Gallery with Larger Image</h1>
+        <h1>Justin's Dynamic Image Gallery with Larger Image</h1>
         <p>Showcasing data projects and a dynamically generated image gallery</p>
     </header>
 
@@ -139,11 +108,9 @@
         <h2>Image Gallery</h2>
 
         <div class="gallery-container">
-            <button class="prev" onclick="scrollGallery(-1)">❮</button>
             <div class="gallery" id="dynamic-gallery">
                 <!-- Images will be dynamically added here -->
             </div>
-            <button class="next" onclick="scrollGallery(1)">❯</button>
         </div>
     </section>
 
@@ -168,7 +135,6 @@
             const imageLink = document.createElement('a');
             imageLink.href = imageUrl;
             imageLink.target = '_blank';
-            imageLink.className = 'image-link';
 
             const image = document.createElement('img');
             image.src = imageUrl;
@@ -178,26 +144,11 @@
             imageContainer.appendChild(imageLink);
             gallery.appendChild(imageContainer);
         });
-
-        let currentIndex = 0;
-
-        function scrollGallery(direction) {
-            const imageContainers = document.querySelectorAll('.image-container');
-            const containerWidth = gallery.clientWidth;
-
-            currentIndex += direction;
-            if (currentIndex < 0) {
-                currentIndex = 0;
-            } else if (currentIndex > imageContainers.length - 1) {
-                currentIndex = imageContainers.length - 1;
-            }
-
-            const translateValue = -currentIndex * containerWidth;
-            gallery.style.transform = `translateX(${translateValue}px)`;
-        }
     </script>
 </body>
 </html>
+
+
 
 
 
