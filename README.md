@@ -63,8 +63,8 @@
         .image-container img {
             width: 100%;
             height: auto;
-            max-width: 1000px; /* Adjust this value to control the maximum width of the images */
-            max-height: 600px; /* Adjust this value to control the maximum height of the images */
+            max-width: 750px; /* Adjust this value to control the maximum width of the images */
+            max-height: 450px; /* Adjust this value to control the maximum height of the images */
             border-radius: 8px;
         }
 
