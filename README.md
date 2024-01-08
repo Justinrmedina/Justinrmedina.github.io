@@ -55,7 +55,7 @@
         }
 
         .image-container img {
-            width: 100%;
+            width: auto;
             height: auto;
             border-radius: 8px;
         }
@@ -98,10 +98,10 @@
         <div class="gallery">
             <!-- Add image containers here -->
             <div class="image-container">
-                <img src="images/ANOVA small.jpg" alt="Image 1">
+                <img src="ANOVA small.jpg" alt="Image 1">
             </div>
             <div class="image-container">
-                <img src="images/ANOVA small.jpg" alt="Image 2">
+                <img src="ANOVA small.jpg" alt="Image 2">
             </div>
             <!-- Add more image containers as needed -->
         </div>
