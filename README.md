@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -58,7 +57,6 @@
             <a href="#">View Project</a>
         </div>
 
-        <!-- Add more projects as needed -->
 
     </section>
 
@@ -70,7 +68,6 @@
             <li>Data Visualization</li>
             <li>R Programming</li>
             <li>SQL</li>
-            <!-- Add more skills as needed -->
         </ul>
 
     </section>
