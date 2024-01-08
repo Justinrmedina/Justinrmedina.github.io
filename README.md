@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio with Single Image Gallery</title>
+    <title>Your Portfolio with Larger Image Gallery</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -64,8 +63,8 @@
         .image-container img {
             width: 100%;
             height: auto;
-            max-width: 750px; /* Adjust this value to control the maximum width of the images */
-            max-height: 450px; /* Adjust this value to control the maximum height of the images */
+            max-width: 800px; /* Adjust this value to control the maximum width of the images */
+            max-height: 500px; /* Adjust this value to control the maximum height of the images */
             border-radius: 8px;
         }
 
@@ -98,7 +97,7 @@
 <body>
 
     <header>
-        <h1>Your Portfolio with Single Image Gallery</h1>
+        <h1>Your Portfolio with Larger Image Gallery</h1>
         <p>Showcasing data projects and a navigable image gallery with larger images</p>
     </header>
 
@@ -134,6 +133,12 @@
                 <div class="image-container">
                     <img src="ANOVA small.png" alt="Image 2">
                 </div>
+                <div class="image-container">
+                    <img src="ANOVA small.png" alt="Image 3">
+                </div>
+                <div class="image-container">
+                    <img src="ANOVA small.png" alt="Image 4">
+                </div>
                 <!-- Add more image containers as needed -->
             </div>
             <button class="next" onclick="scrollGallery(1)">❯</button>
@@ -141,7 +146,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Your Portfolio with Single Image Gallery</p>
+        <p>&copy; 2024 Your Portfolio with Larger Image Gallery</p>
     </footer>
 
     <script>
@@ -165,6 +170,7 @@
     </script>
 </body>
 </html>
+
 
 
 
