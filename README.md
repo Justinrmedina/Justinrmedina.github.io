@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio with Image Gallery</title>
+    <title>Your Portfolio with Image Gallery and Navigation Arrows</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -34,11 +34,16 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
+        .gallery-container {
+            position: relative;
+            overflow: hidden;
+            white-space: nowrap;
+            margin-bottom: 20px;
+        }
+
         .gallery {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 20px;
+            transition: transform 0.3s ease-in-out;
         }
 
         .image-container {
@@ -55,10 +60,30 @@
         }
 
         .image-container img {
-            width: 100%; /* Make the image take the full width of its container */
-            height: auto; /* Maintain the aspect ratio */
-            max-width: 300px; /* Set a maximum width to control the size */
+            width: 100%;
+            height: auto;
+            max-width: 300px;
             border-radius: 8px;
+        }
+
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 24px;
+            cursor: pointer;
+            color: #333;
+            background: none;
+            border: none;
+            outline: none;
+        }
+
+        .prev {
+            left: 10px;
+        }
+
+        .next {
+            right: 10px;
         }
 
         footer {
@@ -70,8 +95,8 @@
 <body>
 
     <header>
-        <h1>Your Portfolio with Image Gallery</h1>
-        <p>Showcasing data projects and beautiful images</p>
+        <h1>Your Portfolio with Image Gallery and Navigation Arrows</h1>
+        <p>Showcasing data projects and a navigable image gallery</p>
     </header>
 
     <section>
@@ -96,22 +121,46 @@
     <section>
         <h2>Image Gallery</h2>
 
-        <div class="gallery">
-            <!-- Add image containers here -->
-            <div class="image-container">
-                <img src="ANOVA small.png" alt="Image 1">
+        <div class="gallery-container">
+            <button class="prev" onclick="scrollGallery(-1)">❮</button>
+            <div class="gallery">
+                <!-- Add image containers here -->
+                <div class="image-container">
+                    <img src="ANOVA small.png" alt="Image 1">
+                </div>
+                <div class="image-container">
+                    <img src="ANOVA small.png" alt="Image 2">
+                </div>
+                <!-- Add more image containers as needed -->
             </div>
-            <div class="image-container">
-                <img src="ANOVA small.png" alt="Image 2">
-            </div>
-            <!-- Add more image containers as needed -->
+            <button class="next" onclick="scrollGallery(1)">❯</button>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Your Portfolio with Image Gallery</p>
+        <p>&copy; 2024 Your Portfolio with Image Gallery and Navigation Arrows</p>
     </footer>
 
+    <script>
+        let currentIndex = 0;
+        const gallery = document.querySelector('.gallery');
+
+        function scrollGallery(direction) {
+            const imageContainers = document.querySelectorAll('.image-container');
+            const containerWidth = gallery.clientWidth;
+            const totalWidth = imageContainers.length * (containerWidth + 20); // 20px margin
+
+            currentIndex += direction;
+            if (currentIndex < 0) {
+                currentIndex = 0;
+            } else if (currentIndex > imageContainers.length - 1) {
+                currentIndex = imageContainers.length - 1;
+            }
+
+            const translateValue = -currentIndex * (containerWidth + 20);
+            gallery.style.transform = `translateX(${translateValue}px)`;
+        }
+    </script>
 </body>
 </html>
 
