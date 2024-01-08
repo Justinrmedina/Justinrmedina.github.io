@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio with Larger Image Gallery</title>
+    <title>Justin's Portfolio with Larger Image Gallery</title>
     <style>
         body {
             font-family: Arial, sans-serif;
