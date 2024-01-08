@@ -59,9 +59,6 @@
             flex: 0 0 auto;
         }
 
-        .image-container:hover {
-            transform: scale(1.1);
-        }
 
         .image-container img {
             width: 100%;
