@@ -54,7 +54,7 @@
         <div class="project">
             <h3>Project 2: Data Visualizations</h3>
             <p>Custom data visualizations created using R</p>
-            <img src="ANOVA.png"  alt="Project 1 Image">
+            <img src="ANOVA small.png"  alt="Project 1 Image">
             <a href="#">View Project</a>
         </div>
 
