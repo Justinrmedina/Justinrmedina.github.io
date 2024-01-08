@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Justin's Data Portfolio</title>
+    <title>Justin's Portfolio with Image Gallery</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -33,49 +33,84 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .image-container {
+            margin: 10px;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container:hover {
+            transform: scale(1.1);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Justin's Data Portfolio</h1>
-        <p>Showcasing my data projects and skills</p>
+        <h1>Justin's Portfolio with Image Gallery</h1>
+        <p>Showcasing data projects and data visuals</p>
     </header>
 
     <section>
         <h2>Projects</h2>
 
         <div class="project">
-            <h3>Project 1: Data Analysis Reports</h3>
-            <p>Data analysis reports using R Markdown</p>
+            <h3>Project 1: Data Analysis</h3>
+            <p>Description of the project and the tools/technologies used.</p>
             <a href="#">View Project</a>
         </div>
 
         <div class="project">
-            <h3>Project 2: Data Visualizations</h3>
-            <p>Custom data visualizations created using R</p>
-            <img src="ANOVA small.png"  alt="Project 1 Image">
+            <h3>Project 2: Data Visualization</h3>
+            <p>Description of the project and the tools/technologies used.</p>
             <a href="#">View Project</a>
         </div>
 
+        <!-- Add more projects as needed -->
 
     </section>
 
     <section>
-        <h2>Skills</h2>
+        <h2>Image Gallery</h2>
 
-        <ul>
-            <li>Data Analysis</li>
-            <li>Data Visualization</li>
-            <li>R Programming</li>
-            <li>SQL</li>
-        </ul>
-
+        <div class="gallery">
+            <!-- Add image containers here -->
+            <div class="image-container">
+                <img src="images/ANOVA small.jpg" alt="Image 1">
+            </div>
+            <div class="image-container">
+                <img src="images/ANOVA small.jpg" alt="Image 2">
+            </div>
+            <!-- Add more image containers as needed -->
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Justin's Data Portfolio</p>
+        <p>&copy; 2024 Justin's Portfolio with Image Gallery</p>
     </footer>
 
 </body>
 </html>
+
