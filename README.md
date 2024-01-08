@@ -54,7 +54,8 @@
         <div class="project">
             <h3>Project 2: Data Visualizations</h3>
             <p>Custom data visualizations created using R</p>
-            <img src="images/project1.jpg" alt="Project 1 Image">
+            <img src="FL23384 Prelim All Yield Perc Diff x Identity1 x Locn by Trt ANOVA.png" 
+            alt="Project 1 Image">
             <a href="#">View Project</a>
         </div>
 
