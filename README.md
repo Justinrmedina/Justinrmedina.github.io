@@ -64,6 +64,10 @@
             text-decoration: none;
             margin-right: 10px;
         }
+        section {
+            position: relative;
+            z-index: 2; /* Set z-index to be above the overlay */
+        }
     </style>
 </head>
 <body>
