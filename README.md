@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website Title</title>
+    <title>Medina, J.</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
@@ -13,8 +13,8 @@
             background-position: center; /* Center the background image */
 }
         header {
-            background-color: white; /* Add your preferred background color */
-            color: #fff; /* Add your preferred text color */
+            /*background-color: white;  Add your preferred background color */
+            color: black; /* Add your preferred text color */
             padding: 5px;
             text-align: center;
             font-family: 'Arial', sans-serif;
@@ -60,14 +60,14 @@
 
     <header>
         <nav>
-            <a href="Medina_Justin_Resume.pdf" id="resume-link">Resume</a>
+            
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#sinyapps">ShinyApps</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        
+        <a href="Medina_Justin_Resume.pdf" id="resume-link">Resume</a>
         </nav>
     </header>
 
