@@ -12,6 +12,15 @@
             background-size: cover; /* Cover the entire viewport */
             background-position: center; /* Center the background image */
         }
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.5) for transparency */
+        }
         header {
             background-color: white;  Add your preferred background color
             color: black; /* Add your preferred text color */
@@ -19,11 +28,16 @@
             text-align: center;
             font-family: 'Arial', sans-serif;
             font-size: 0.8em;
+            position: relative;
+            z-index: 1;
+            display: flex;
+            align-items: center;
         }
         nav {
             display: flex;
             justify-content: flex-end;
             align-items: center;
+            z-index: 2;
         }
         nav ul {
             list-style: none;
