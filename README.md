@@ -13,7 +13,7 @@
             background-position: center; /* Center the background image */
         }
         header {
-            /*background-color: white;  Add your preferred background color */
+            background-color: white;  Add your preferred background color
             color: black; /* Add your preferred text color */
             padding: 5px;
             text-align: center;
