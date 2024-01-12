@@ -80,7 +80,7 @@
                 <li><a href="#sinyapps">ShinyApps</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <a href="Medina_Justin_Resume.pdf" id="resume-link">Resume</a>
+                <a href="Medina_Justin_Resume.pdf" id="resume-link">Resume</a>
         </nav>
     </header>
     <section id="home">
