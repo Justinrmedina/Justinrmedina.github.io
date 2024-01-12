@@ -19,7 +19,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.1); /* Adjust the last value (0.5) for transparency */
+            background-color: rgba(0, 0, 0, 0.8); /* Adjust the last value (0.5) for transparency */
         }
         header {
             /*background-color: white;  Add your preferred background color*/
