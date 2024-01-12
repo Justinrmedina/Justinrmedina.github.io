@@ -22,7 +22,7 @@
             background-color: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.5) for transparency */
         }
         header {
-            background-color: white;  Add your preferred background color
+            /*background-color: white;  Add your preferred background color*/
             color: black; /* Add your preferred text color */
             padding: 5px;
             text-align: center;
