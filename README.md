@@ -10,7 +10,7 @@
             padding: 0;
             background-image: url('Programming image2 small.png'); /* Path to your image */
             background-size: cover; /* Cover the entire viewport */
-            background-position: center; /* Center the background image */
+            background-position: top; /* Center the background image */
         }
         body::before {
             content: "";
