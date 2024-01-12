@@ -56,7 +56,7 @@
         #resume-link {
             color: white;
             /*background-color: white; */
-            padding: 3px 5px;
+            padding: 2px 5px;
             border-radius: 50px; /* Make it a circle */
             border: 2px solid cornflowerblue; /* Add a circular outline */
             color: cornflowerblue;
