@@ -19,13 +19,13 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.5) for transparency */
+            background-color: rgba(0, 0, 0, 0.6); /* Adjust the last value (0.5) for transparency */
         }
         header {
             /*background-color: white;  Add your preferred background color*/
-            color: black; /* Add your preferred text color */
+            color: white; /* Add your preferred text color */
             padding: 5px;
-            text-align: center;
+            /*text-align: center;*/
             font-family: 'Arial', sans-serif;
             font-size: 0.8em;
             position: relative;
@@ -63,7 +63,7 @@
             font-weight: bold;
             text-decoration: none;
             margin-right: 10px;
-            align-items: center;
+            align-items: start;
         }
         section {
             position: relative;
