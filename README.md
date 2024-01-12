@@ -8,7 +8,7 @@
         body {
             margin: 0;
             padding: 0;
-            background-image: url('Programming image small.png'); /* Path to your image */
+            background-image: url('Programming image2 small.png'); /* Path to your image */
             background-size: cover; /* Cover the entire viewport */
             background-position: center; /* Center the background image */
         }
