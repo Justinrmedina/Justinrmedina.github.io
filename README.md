@@ -63,6 +63,7 @@
             font-weight: bold;
             text-decoration: none;
             margin-right: 10px;
+            align-items: center;
         }
         section {
             position: relative;
