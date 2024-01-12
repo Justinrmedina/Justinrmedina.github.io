@@ -23,7 +23,7 @@
 
         nav {
             display: flex;
-            justify-content: flex-end;
+            justify-content: space-between;
             align-items: center;
         }
 
@@ -60,14 +60,13 @@
 
     <header>
         <nav>
-            <a href="Medina_Justin_Resume.pdf" id="resume-link">Resume</a>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#sinyapps">ShinyApps</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        
+            <a href="Medina_Justin_Resume.pdf" id="resume-link">Resume</a>
         </nav>
     </header>
 
