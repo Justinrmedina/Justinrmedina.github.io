@@ -27,7 +27,7 @@
             padding: 5px;
             /*text-align: center;*/
             font-family: 'Arial', sans-serif;
-            font-size: 0.8em;
+            font-size: 0.9em;
             position: fixed;
             z-index: 1;
             display: inline;
