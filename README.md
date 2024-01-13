@@ -42,7 +42,7 @@
         nav ul {
             list-style: none;
             padding: 0;
-            margin: 10;
+            margin: 0;
         }
         nav li {
             display: inline;
