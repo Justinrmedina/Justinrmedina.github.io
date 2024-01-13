@@ -21,6 +21,7 @@
             width: 100%;
             height: 100%;
             background-color: rgba(0, 0, 0, 0.6); /* Adjust the last value (0.5) for transparency */
+            z-index: 0;
         }
         header {
             color: white; /* Add your preferred text color */
