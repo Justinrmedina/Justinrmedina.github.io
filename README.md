@@ -64,6 +64,7 @@
         section {
             position: relative;
             z-index: 2; /* Set z-index to be above the overlay */
+            color: white;
         }
     </style>
 </head>
