@@ -51,7 +51,7 @@
         nav a {
             text-decoration: none;
             color: white; 
-            font-weight: bold;
+            /*font-weight: bold;*/
         }
         #resume-link {
             color: white;
