@@ -31,7 +31,7 @@
         }
         nav {
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-end;
             align-items: center;
             z-index: 2;
         }
@@ -74,8 +74,9 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#sinyapps">ShinyApps</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <a href="Medina_Justin_Resume.pdf" id="resume-link">Resume</a>
             </ul>
-            <a href="Medina_Justin_Resume.pdf" id="resume-link">Resume</a>
+            
         </nav>
     </header>
     <section id="home">
