@@ -10,6 +10,8 @@
             padding: 0;
             position: absolute;
             background-image: url('Programming image2 small.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             background-size: cover;
             background-position: center top;
             width: 100%; /* Set width to cover the entire device width */
