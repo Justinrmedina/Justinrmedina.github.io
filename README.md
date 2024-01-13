@@ -8,6 +8,7 @@
         body {
             margin: 0;
             padding: 0;
+            position: relative;
             background-image: url('Programming image2 small.png'); /* Path to your image */
             background-size: cover; /* Cover the entire viewport */
             background-position: top; /* Center the background image */
@@ -26,7 +27,8 @@
             padding: 5px;
             text-align: center;
             font-family: 'Arial', sans-serif;
-            font-size: 0.9em;;
+            font-size: 0.9em;
+            position: relative;
             z-index: 1;
         }
         nav {
@@ -50,8 +52,6 @@
             /*font-weight: bold;*/
         }
         #resume-link {
-            color: white;
-            /*background-color: white; */
             padding: 2px 5px;
             border-radius: 50px; /* Make it a circle */
             border: 2px solid cornflowerblue; /* Add a circular outline */
