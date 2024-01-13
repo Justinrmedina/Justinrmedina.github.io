@@ -105,7 +105,7 @@
 
     <main>
         <article id="home">
-            <h2>Home Section</h2>
+            <h2>Home</h2>
             <!-- Content for the home section -->
         </article>
 
