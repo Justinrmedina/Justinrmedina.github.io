@@ -71,11 +71,11 @@
             margin-right: 10px;
         }
 
-        section {
+        main {
             color: white;
             position: relative;
             z-index: 2;
-            margin: 0; /* Add this to remove margin */
+            margin: 0;
         }
 
         footer {
@@ -87,10 +87,28 @@
             padding: 10px;
             z-index: 1;
         }
+
+        /* Add skip to content link style */
+        #skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background-color: cornflowerblue;
+            color: white;
+            padding: 5px;
+            text-decoration: none;
+            z-index: 3;
+        }
+
+        #skip-link:focus {
+            top: 0;
+        }
     </style>
 </head>
 <body>
-    
+    <!-- Skip to content link for accessibility -->
+    <a href="#home" id="skip-link">Skip to Content</a>
+
     <header>
         <nav>
             <ul>
@@ -102,28 +120,30 @@
             </ul>
         </nav>
     </header>
-    
-    <section id="home">
-        <h2>Home Section</h2>
-        <!-- Content for the home section -->
-    </section>
-    
-    <section id="about">
-        <h2>About Section</h2>
-        <!-- Content for the about section -->
-    </section>
-    
-    <section id="contact">
-        <h2>Contact Section</h2>
-        <!-- Content for the contact section -->
-    </section>
-    
+
+    <main>
+        <article id="home">
+            <h2>Home Section</h2>
+            <!-- Content for the home section -->
+        </article>
+
+        <article id="about">
+            <h2>About Section</h2>
+            <!-- Content for the about section -->
+        </article>
+
+        <article id="contact">
+            <h2>Contact Section</h2>
+            <!-- Content for the contact section -->
+        </article>
+    </main>
+
     <footer>
         <p>&copy; 2024 J. Medina's Data Portfolio. All rights reserved.</p>
     </footer>
-    
 </body>
 </html>
+
 
 
 
