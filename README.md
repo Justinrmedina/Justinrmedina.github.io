@@ -30,7 +30,7 @@
             font-size: 0.8em;
             position: relative;
             z-index: 1;
-            display: flex;
+            display: inline;
             align-items: center;
         }
         nav {
