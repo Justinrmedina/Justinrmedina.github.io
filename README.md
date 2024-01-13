@@ -103,9 +103,8 @@
         <!-- Content for the contact section -->
     </section>
     <footer>
-        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+        <p>&copy; 2024 J. Medina's Data Portfolio. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
 
