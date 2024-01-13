@@ -10,7 +10,6 @@
             margin: 0;
             padding: 0;
             position: relative;
-            /*min-height: 100vh;*/
             background-image: url('Programming image2 small.png');
             background-size: cover;
             background-position: top;
@@ -19,6 +18,8 @@
         body::before {
             content: "";
             position: absolute;
+            min-height: 100%;
+            min-width: 100%;
             top: 0;
             left: 0;
             width: 100%;
@@ -91,14 +92,13 @@
 <body>
     
     <header>
-        <h1>Welcome to My Website</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#sinyapps">ShinyApps</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <a href="Medina_Justin_Resume.pdf" id="resume-link" target="_blank">Resume</a>
+                <li><a href="Medina_Justin_Resume.pdf" id="resume-link" target="_blank">Resume</a></li>
             </ul>
         </nav>
     </header>
