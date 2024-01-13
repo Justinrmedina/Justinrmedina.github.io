@@ -22,20 +22,16 @@
             background-color: rgba(0, 0, 0, 0.6); /* Adjust the last value (0.5) for transparency */
         }
         header {
-            /*background-color: white;  Add your preferred background color*/
             color: white; /* Add your preferred text color */
             padding: 5px;
-            /*text-align: center;*/
+            text-align: center;
             font-family: 'Arial', sans-serif;
-            font-size: 0.9em;
-            position: fixed;
+            font-size: 0.9em;;
             z-index: 1;
-            display: inline;
-            align-items: center;
         }
         nav {
             display: flex;
-            justify-content: flex-end;
+            justify-content: space-between;
             align-items: center;
             z-index: 2;
         }
@@ -62,8 +58,7 @@
             color: cornflowerblue;
             font-weight: bold;
             text-decoration: none;
-            margin-right: 10px;
-            align-items: start;
+            /*margin-right: 10px;*/
         }
         section {
             position: relative;
@@ -80,7 +75,7 @@
                 <li><a href="#sinyapps">ShinyApps</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-                <a href="Medina_Justin_Resume.pdf" id="resume-link">Resume</a>
+            <a href="Medina_Justin_Resume.pdf" id="resume-link">Resume</a>
         </nav>
     </header>
     <section id="home">
