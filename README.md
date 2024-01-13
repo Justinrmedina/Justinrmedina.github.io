@@ -10,7 +10,7 @@
             margin: 0;
             padding: 0;
             position: relative;
-            min-height: 100vh;
+            /*min-height: 100vh;*/
             background-image: url('Programming image2 small.png');
             background-size: cover;
             background-position: top;
@@ -18,7 +18,7 @@
 
         body::before {
             content: "";
-            position: relative;
+            position: absolute;
             top: 0;
             left: 0;
             width: 100%;
@@ -89,7 +89,9 @@
     </style>
 </head>
 <body>
+    
     <header>
+        <h1>Welcome to My Website</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -100,21 +102,26 @@
             </ul>
         </nav>
     </header>
+    
     <section id="home">
         <h2>Home Section</h2>
         <!-- Content for the home section -->
     </section>
+    
     <section id="about">
         <h2>About Section</h2>
         <!-- Content for the about section -->
     </section>
+    
     <section id="contact">
         <h2>Contact Section</h2>
         <!-- Content for the contact section -->
     </section>
+    
     <footer>
         <p>&copy; 2024 J. Medina's Data Portfolio. All rights reserved.</p>
     </footer>
+    
 </body>
 </html>
 
