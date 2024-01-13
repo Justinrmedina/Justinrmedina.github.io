@@ -28,7 +28,7 @@
             /*text-align: center;*/
             font-family: 'Arial', sans-serif;
             font-size: 0.8em;
-            position: relative;
+            position: fixed;
             z-index: 1;
             display: inline;
             align-items: center;
