@@ -9,17 +9,17 @@
         body {
             margin: 0;
             padding: 0;
-            position: absolute;
+            position: relative;
             background-image: url('Programming image2 small.png');
             background-size: cover;
             background-position: top;
+            width: 100%; /* Set width to cover the entire device width */
+            height: 100vh;
         }
 
         body::before {
             content: "";
             position: absolute;
-            min-height: 100%;
-            min-width: 100%;
             top: 0;
             left: 0;
             width: 100%;
