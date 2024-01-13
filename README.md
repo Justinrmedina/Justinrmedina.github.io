@@ -31,6 +31,8 @@
             font-size: 0.9em;
             position: relative;
             z-index: 1;
+            display: flex;
+            align-items: center; /* Center vertically */
         }
         nav {
             display: flex;
@@ -62,9 +64,10 @@
             margin-right: 10px;
         }
         section {
+            color: white;
             position: relative;
             z-index: 2; /* Set z-index to be above the overlay */
-            color: white;
+            
         }
     </style>
 </head>
