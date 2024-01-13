@@ -19,12 +19,11 @@
         body::before {
             content: "";
             position: absolute;
-            top: 0;
+            top: -10%;
             left: 0;
             width: 100%;
             height: 100%;
             background-color: rgba(0, 0, 0, 0.6);
-            background-position: top;
             z-index: 0;
         }
 
