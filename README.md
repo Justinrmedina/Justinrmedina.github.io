@@ -12,7 +12,7 @@
             background-image: url('Programming image2 small.png');
             background-size: cover;
             background-position: top;
-            width: 100%; /* Set width to cover the entire device width */
+            width: 100vw; /* Set width to cover the entire device width */
             height: 100vh;
         }
 
