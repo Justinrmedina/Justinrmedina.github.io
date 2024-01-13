@@ -58,7 +58,7 @@
             color: cornflowerblue;
             font-weight: bold;
             text-decoration: none;
-            /*margin-right: 10px;*/
+            margin-right: 10px;
         }
         section {
             position: relative;
