@@ -10,7 +10,7 @@
             margin: 0;
             padding: 0;
             position: relative;
-            min-height: 100vh;
+            /*min-height: 100vh;*/
             background-image: url('Programming image2 small.png');
             background-size: cover;
             background-position: top;
