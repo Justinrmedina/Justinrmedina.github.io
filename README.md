@@ -21,6 +21,8 @@
         body::before {
             content: "";
             position: absolute;
+            background-attachment: fixed;
+            background-size: cover;
             top: 0;
             left: 0;
             width: 100vw;
@@ -107,7 +109,7 @@
 
     <main>
         <article id="home">
-            <h2>Home Section</h2>
+            <h2>Home</h2>
             <!-- Content for the home section -->
         </article>
 
