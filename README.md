@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,10 +11,11 @@
             padding: 0;
             position: relative;
             min-height: 100vh;
-            background-image: url('Programming image2 small.png'); /* Path to your image */
-            background-size: cover; /* Cover the entire viewport */
-            background-position: top; /* Center the background image */
+            background-image: url('Programming image2 small.png');
+            background-size: cover;
+            background-position: top;
         }
+
         body::before {
             content: "";
             position: absolute;
@@ -21,11 +23,12 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.6); /* Adjust the last value (0.5) for transparency */
+            background-color: rgba(0, 0, 0, 0.6);
             z-index: 0;
         }
+
         header {
-            color: white; /* Add your preferred text color */
+            color: white;
             padding: 5px;
             text-align: center;
             font-family: 'Arial', sans-serif;
@@ -33,40 +36,46 @@
             position: relative;
             z-index: 1;
         }
+
         nav {
             display: flex;
             justify-content: flex-end;
             align-items: center;
             z-index: 2;
         }
+
         nav ul {
             list-style: none;
             padding: 0;
             margin: 0;
         }
+
         nav li {
             display: inline;
-            margin-right: 10px; /* Adjust spacing as needed */
+            margin-right: 10px;
         }
+
         nav a {
             text-decoration: none;
-            color: white; 
-            /*font-weight: bold;*/
+            color: white;
         }
+
         #resume-link {
             color: cornflowerblue;
             padding: 2px 5px;
-            border-radius: 50px; /* Make it a circle */
-            border: 2px solid cornflowerblue; /* Add a circular outline */
-            /*font-weight: bold;*/
+            border-radius: 50px;
+            border: 2px solid cornflowerblue;
             text-decoration: none;
             margin-right: 10px;
         }
+
         section {
             color: white;
             position: relative;
-            z-index: 2; /* Set z-index to be above the overlay */
-            }
+            z-index: 2;
+            margin: 0; /* Add this to remove margin */
+        }
+
         footer {
             position: absolute;
             bottom: 0;
@@ -74,7 +83,7 @@
             color: white;
             text-align: center;
             padding: 10px;
-            z-index: 1; /* Set z-index to be above the overlay */
+            z-index: 1;
         }
     </style>
 </head>
@@ -86,7 +95,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#sinyapps">ShinyApps</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <a href="Medina_Justin_Resume.pdf" id="resume-link">Resume</a>
+                <a href="Medina_Justin_Resume.pdf" id="resume-link" target="_blank">Resume</a>
             </ul>
         </nav>
     </header>
@@ -107,6 +116,7 @@
     </footer>
 </body>
 </html>
+
 
 
 
