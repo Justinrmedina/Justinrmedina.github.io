@@ -9,7 +9,7 @@
         body {
             margin: 0;
             padding: 0;
-            position: relative;
+            position: absolute;
             background-image: url('Programming image2 small.png');
             background-size: cover;
             background-position: top;
