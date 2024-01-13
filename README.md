@@ -31,6 +31,7 @@
             color: white;
             padding: 5px;
             text-align: center;
+            margin: 0;
             font-family: 'Arial', sans-serif;
             font-size: 0.9em;
             position: relative;
