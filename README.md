@@ -20,7 +20,7 @@
 
         body::before {
             content: "";
-            position: relative;
+            position: fixed;
             top: 0;
             left: 0;
             width: 100vw;
@@ -96,7 +96,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#home">Home Section</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#sinyapps">ShinyApps</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -107,7 +107,7 @@
 
     <main>
         <article id="home">
-            <h2>Home</h2>
+            <h2>Home Section</h2>
             <!-- Content for the home section -->
         </article>
 
