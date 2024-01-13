@@ -10,7 +10,7 @@
             margin: 0;
             padding: 0;
             position: relative;
-            /*min-height: 100vh;*/
+            min-height: 100vh;
             background-image: url('Programming image2 small.png');
             background-size: cover;
             background-position: top;
@@ -18,8 +18,8 @@
 
         body::before {
             content: "";
-            position: absolute;
-            top: -10%;
+            position: relative;
+            top: 0;
             left: 0;
             width: 100%;
             height: 100%;
