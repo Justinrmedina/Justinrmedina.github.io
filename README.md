@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -88,27 +87,10 @@
             z-index: 1;
         }
 
-        /* Add skip to content link style */
-        #skip-link {
-            position: absolute;
-            top: -40px;
-            left: 0;
-            background-color: cornflowerblue;
-            color: white;
-            padding: 5px;
-            text-decoration: none;
-            z-index: 3;
-        }
-
-        #skip-link:focus {
-            top: 0;
-        }
     </style>
 </head>
 <body>
-    <!-- Skip to content link for accessibility -->
-    <a href="#home" id="skip-link">Skip to Content</a>
-
+    
     <header>
         <nav>
             <ul>
