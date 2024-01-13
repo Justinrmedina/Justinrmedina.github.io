@@ -9,6 +9,7 @@
             margin: 0;
             padding: 0;
             position: relative;
+            min-height: 100vh;
             background-image: url('Programming image2 small.png'); /* Path to your image */
             background-size: cover; /* Cover the entire viewport */
             background-position: top; /* Center the background image */
@@ -53,11 +54,11 @@
             /*font-weight: bold;*/
         }
         #resume-link {
+            color: cornflowerblue;
             padding: 2px 5px;
             border-radius: 50px; /* Make it a circle */
             border: 2px solid cornflowerblue; /* Add a circular outline */
-            color: cornflowerblue;
-            font-weight: bold;
+            /*font-weight: bold;*/
             text-decoration: none;
             margin-right: 10px;
         }
@@ -65,7 +66,15 @@
             color: white;
             position: relative;
             z-index: 2; /* Set z-index to be above the overlay */
-            
+            }
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            z-index: 1; /* Set z-index to be above the overlay */
         }
     </style>
 </head>
