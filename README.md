@@ -45,6 +45,7 @@
             justify-content: flex-end;
             align-items: center;
             z-index: 2;
+            border-bottom: 2px solid white;
         }
 
         nav ul {
