@@ -108,21 +108,20 @@
 
     <main>
         <article id="home">
-            <h2>Home Section</h2>
-            <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
         <div style="flex: 1;">
             <!-- Text content on the left -->
             <h2>Welcome to My Portfolio</h2>
             <p>This is a brief introduction to who I am and what I do.</p>
         </div>
         <div style="flex: 1; text-align: right;">
-            <!-- Image on the right with white background and shadow -->
-            <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); display: inline-block;">
-                <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 150px; height: 150px;">
+            <!-- Image on the right with white background, shadow, and white border -->
+            <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); display: inline-block; border: 2px solid white; border-radius: 8px; padding: 4px;">
+                <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 150px; height: 150px; border-radius: 4px;">
             </div>
         </div>
     </div>
-        </article>
+</article>
 
         <article id="about">
             <h2>About Section</h2>
