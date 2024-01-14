@@ -123,7 +123,7 @@
             /*padding: 4px;*/
             ">
                 <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 400px; 
-                height: 4800px; 
+                height: 450px; 
                 margin: -2px;
                 border-radius: 0px;">
             </div>
