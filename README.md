@@ -116,8 +116,15 @@
         </div>
         <div style="flex: 1; text-align: right;">
             <!-- Image on the right with white background, shadow, and white border -->
-            <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); display: inline-block; border: 2px solid white; border-radius: 8px; padding: 4px;">
-                <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 150px; height: 150px; border-radius: 4px;">
+            <div style="background-color: white; 
+            /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+            display: inline-block; 
+            border: 2px solid white; 
+            /*border-radius: 8px; */
+            padding: 4px;">
+                <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 200px; 
+                height: 300px; 
+                border-radius: 4px;">
             </div>
         </div>
     </div>
