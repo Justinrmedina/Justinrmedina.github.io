@@ -127,6 +127,7 @@
                 height: 450px; 
                 margin-bottom: -8px;
                 margin-left: -2px;
+                margin-right: -2px;
                 border-radius: 0px;">
             </div>
         </div>
