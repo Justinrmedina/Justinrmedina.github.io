@@ -112,7 +112,8 @@
         <div style="flex: 1; text-align: center;">
             <!-- Text content on the left -->
             <h2>Welcome to My Portfolio</h2>
-            <p>This is a brief introduction to who I am and what I do.</p>
+            <p>Applied Biostatistics, Data Analytics, & statistical programming professional.</p>
+            <p>"Turning data into insights is my passion."</p>
         </div>
         <div style="flex: 1; text-align: center; padding-top: 10px;">
             <div style="display: inline-block; 
