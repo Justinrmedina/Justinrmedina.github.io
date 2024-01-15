@@ -13,7 +13,7 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
-            background-position: center top;
+            background-position: center center;
             width: 100%; /* Set width to cover the entire device width */
             height: 100vh;
         }
