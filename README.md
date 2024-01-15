@@ -121,12 +121,12 @@
             align-items: center;
             overflow: hidden;
             /*border-radius: 8px; */
-            /*padding: 4px;*/
+            padding: 4px;
             ">
                 <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 400px; 
                 height: 450px; 
-                margin: 0px;
-                border-radius: -2px;">
+                margin: -2px;
+                border-radius: 0px;">
             </div>
         </div>
     </div>
