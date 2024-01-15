@@ -117,7 +117,7 @@
         <div style="flex: 1; text-align: right;">
             <!-- Image on the right with white background, shadow, and white border -->
             <div style="display: inline-block; 
-            border: 2px solid white; 
+            border: 5px solid white; 
             align-items: stretch;
             overflow: hidden;
             /*border-radius: 8px; */
