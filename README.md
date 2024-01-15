@@ -118,7 +118,7 @@
             <!-- Image on the right with white background, shadow, and white border -->
             <div style="display: inline-block; 
             border: 2px solid white; 
-            align-items: center;
+            align-items: stretch;
             overflow: hidden;
             /*border-radius: 8px; */
             /*padding: 4px;*/
