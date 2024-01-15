@@ -114,7 +114,7 @@
             <h2>Welcome to My Portfolio</h2>
             <p>This is a brief introduction to who I am and what I do.</p>
         </div>
-        <div style="flex: 1; text-align: center;">
+        <div style="flex: 1; text-align: right;">
             <!-- Image on the right with white background, shadow, and white border -->
             <div style="display: inline-block; 
             border: 2px solid white; 
@@ -124,7 +124,7 @@
             ">
                 <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 400px; 
                 height: 450px; 
-                margin: -5px;
+                margin: -10px;
                 border-radius: 0px;">
             </div>
         </div>
