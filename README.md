@@ -109,7 +109,7 @@
     <main>
         <article id="home">
     <div style="display: flex; justify-content: space-between; align-items: start;">
-        <div style="flex: 1;">
+        <div style="flex: 1; text-align: center;">
             <!-- Text content on the left -->
             <h2>Welcome to My Portfolio</h2>
             <p>This is a brief introduction to who I am and what I do.</p>
@@ -124,7 +124,7 @@
             ">
                 <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 400px; 
                 height: 450px; 
-                margin: -2px;
+                margin: -5px;
                 border-radius: 0px;">
             </div>
         </div>
