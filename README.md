@@ -108,13 +108,13 @@
 
     <main>
         <article id="home">
-    <div style="display: flex; justify-content: space-between; align-items: center;">
+    <div style="display: flex; justify-content: space-between; align-items: start;">
         <div style="flex: 1;">
             <!-- Text content on the left -->
             <h2>Welcome to My Portfolio</h2>
             <p>This is a brief introduction to who I am and what I do.</p>
         </div>
-        <div style="flex: 1; text-align: right;">
+        <div style="flex: 1; text-align: center;">
             <!-- Image on the right with white background, shadow, and white border -->
             <div style="display: inline-block; 
             border: 2px solid white; 
