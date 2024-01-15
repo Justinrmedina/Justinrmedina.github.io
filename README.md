@@ -45,7 +45,7 @@
             justify-content: flex-end;
             align-items: center;
             z-index: 2;
-            border-bottom: 2px solid white;
+            /*border-bottom: 2px solid white;*/
         }
 
         nav ul {
@@ -109,9 +109,9 @@
     <main>
         <article id="home">
     <div style="display: flex; justify-content: space-between; align-items: start;">
-        <div style="flex: 1; text-align: center;">
+        <div style="flex: 1; text-align: right;">
             <!-- Text content on the left -->
-            <h2>Welcome to My Portfolio</h2>
+            <h2>Justin R. Medina</h2>
             <p>Applied Biostatistics, Data Analytics, & statistical programming professional.</p>
             <p>"Turning data into insights is my passion."</p>
         </div>
