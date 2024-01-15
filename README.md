@@ -126,7 +126,7 @@
                 <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 400px; 
                 height: 450px; 
                 margin: 0px;
-                border-radius: 0px;">
+                border-radius: -2px;">
             </div>
         </div>
     </div>
