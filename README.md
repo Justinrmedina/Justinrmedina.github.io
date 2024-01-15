@@ -118,13 +118,14 @@
             <!-- Image on the right with white background, shadow, and white border -->
             <div style="display: inline-block; 
             border: 2px solid white; 
+            align-items: center;
             overflow: hidden;
             /*border-radius: 8px; */
             /*padding: 4px;*/
             ">
                 <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 400px; 
                 height: 450px; 
-                margin: -8px;
+                margin: 0px;
                 border-radius: 0px;">
             </div>
         </div>
