@@ -69,8 +69,8 @@
             padding: 2px 5px;
             border-radius: 50px;
             border: 2px solid cornflowerblue;
-            text-decoration: none;
             margin-right: 10px;
+            font-weight: bold;
         }
 
         main {
