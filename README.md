@@ -64,6 +64,12 @@
             color: white;
         }
 
+        #home {
+        background-color: rgba(0, 0, 0, 0.6); /* Transparent black background */
+        border-radius: 10px; /* Round edges */
+        padding: 20px; /* Add padding for better visibility */
+        }
+
         #resume-link {
             color: cornflowerblue;
             padding: 2px 5px;
