@@ -103,7 +103,7 @@
             border-radius: 10px;
             font-size: 1.2em;
             cursor: pointer;
-            font-weight: bold
+            /*font-weight: bold*/
             
         }
 
