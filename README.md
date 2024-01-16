@@ -31,11 +31,11 @@
 
         header {
             color: white;
-            padding: 2px;
+            padding: 1px;
             text-align: center;
             margin: 0;
             font-family: 'Arial', sans-serif;
-            font-size: 1.2em;
+            font-size: 1em;
             position: relative;
             z-index: 1;
         }
@@ -45,7 +45,7 @@
             justify-content: flex-end;
             align-items: center;
             z-index: 2;
-            border-bottom: 1.5px solid white;
+            border-bottom: 1px solid white;
         }
 
         nav ul {
