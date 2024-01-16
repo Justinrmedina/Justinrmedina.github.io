@@ -65,10 +65,16 @@
         }
 
         #home {
-        background-color: rgba(0, 0, 0, 0.6); /* Transparent black background */
-        border-radius: 10px; /* Round edges */
-        padding: 20px; /* Add padding for better visibility */
+            background-color: rgba(0, 0, 0, 0.6); /* Transparent black background */
+            border-radius: 10px; /* Round edges */
+            padding: 20px; /* Add padding for better visibility */
         }
+
+        #home .quote-text {
+            text-align: center;
+            font-size: 1.2em; /* Adjust the font size as needed */
+            font-style: italic; /* Italicize the text */
+            }
 
         #resume-link {
             color: cornflowerblue;
@@ -118,8 +124,8 @@
         <div style="flex: 1; text-align: right;">
             <!-- Text content on the left -->
             <h2>Justin R. Medina</h2>
-            <p>Applied Biostatistics, Data Analytics, & statistical programming professional.</p>
-            <p>"Turning data into insights is my passion."</p>
+            <p>Applied Biostatistics, Data Analytics, & Statistical Programming Professional.</p>
+            <p class="quote-text">"Turning data into insights is my passion."</p>
         </div>
         <div style="flex: 1; text-align: center; padding-top: 10px;">
             <div style="display: inline-block; 
