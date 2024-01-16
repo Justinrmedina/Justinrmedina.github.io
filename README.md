@@ -74,7 +74,7 @@
             text-align: center;
             font-size: 1.5em; /* Adjust the font size as needed */
             font-style: italic; /* Italicize the text */
-            margin-top: 80px;
+            margin-top: 60px;
             }
 
         #resume-link {
@@ -96,9 +96,9 @@
         .projects-button {
             background-color: cornflowerblue;
             color: white;
-            padding: 10px 20px;
+            padding: 5px 10px;
             border: none;
-            border-radius: 5px;
+            border-radius: 10px;
             font-size: 1em;
             cursor: pointer;
         }
