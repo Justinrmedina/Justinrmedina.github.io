@@ -94,6 +94,9 @@
         }
 
         .projects-button {
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
             background-color: cornflowerblue;
             color: white;
             padding: 5px 10px;
@@ -101,11 +104,11 @@
             border-radius: 10px;
             font-size: 1em;
             cursor: pointer;
-            text-align: center;
+            
         }
 
         .projects-button a {
-            text-decoration: none;
+            text-decoration: underline;
             color: white;
         }
 
