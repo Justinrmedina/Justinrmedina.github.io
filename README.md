@@ -64,19 +64,6 @@
             color: white;
         }
 
-        #home {
-            background-color: rgba(0, 0, 0, 0.6); /* Transparent black background */
-            border-radius: 10px; /* Round edges */
-            padding: 20px; /* Add padding for better visibility */
-        }
-
-        #home .quote-text {
-            text-align: center;
-            font-size: 1.5em; /* Adjust the font size as needed */
-            font-style: italic; /* Italicize the text */
-            margin-top: 60px;
-            }
-
         #resume-link {
             color: cornflowerblue;
             padding: 2px 5px;
@@ -93,6 +80,19 @@
             margin: 0;
         }
 
+        #home {
+            background-color: rgba(0, 0, 0, 0.6); /* Transparent black background */
+            border-radius: 10px; /* Round edges */
+            padding: 20px; /* Add padding for better visibility */
+        }
+
+        #home .quote-text {
+            text-align: center;
+            font-size: 1.5em; /* Adjust the font size as needed */
+            font-style: italic; /* Italicize the text */
+            margin-top: 60px;
+        }
+
         .projects-button {
             background-color: cornflowerblue;
             color: white;
@@ -101,6 +101,7 @@
             border-radius: 10px;
             font-size: 1em;
             cursor: pointer;
+            text-align: center;
         }
 
         .projects-button a {
