@@ -90,7 +90,7 @@
             text-align: center;
             font-size: 1.7em; /* Adjust the font size as needed */
             font-style: italic; /* Italicize the text */
-            /*margin-top: 60px;*/
+            margin-top: 20px;
         }
 
         .projects-button {
