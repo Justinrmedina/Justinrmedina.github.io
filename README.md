@@ -74,7 +74,7 @@
             text-align: center;
             font-size: 1.5em; /* Adjust the font size as needed */
             font-style: italic; /* Italicize the text */
-            margin-top: 100px;
+            margin-top: 80px;
             }
 
         #resume-link {
