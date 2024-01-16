@@ -90,12 +90,12 @@
             text-align: center;
             font-size: 1.7em; /* Adjust the font size as needed */
             font-style: italic; /* Italicize the text */
-            margin-top: 20px;
+            margin-top: 40px;
         }
 
         .projects-button {
             display: block;
-            margin: 60px auto 0px auto;
+            margin: 90px auto 0px auto;
             background-color: cornflowerblue;
             color: white;
             padding: 5px 5px;
