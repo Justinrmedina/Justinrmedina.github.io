@@ -31,7 +31,7 @@
 
         header {
             color: white;
-            padding: 5px;
+            padding: 2px;
             text-align: center;
             margin: 0;
             font-family: 'Arial', sans-serif;
@@ -72,8 +72,9 @@
 
         #home .quote-text {
             text-align: center;
-            font-size: 1.2em; /* Adjust the font size as needed */
+            font-size: 1.5em; /* Adjust the font size as needed */
             font-style: italic; /* Italicize the text */
+            margin-top: 10px;
             }
 
         #resume-link {
