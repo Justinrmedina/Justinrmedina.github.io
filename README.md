@@ -90,12 +90,12 @@
             text-align: center;
             font-size: 1.7em; /* Adjust the font size as needed */
             font-style: italic; /* Italicize the text */
-            margin-top: 60px;
+            /*margin-top: 60px;*/
         }
 
         .projects-button {
             display: block;
-            margin: 0 auto;
+            margin: 60 auto 0 auto;
             background-color: cornflowerblue;
             color: white;
             padding: 5px 10px;
@@ -145,8 +145,8 @@
             <!-- Text content on the left -->
             <h1>Justin R. Medina</h1>
             <p>Applied Biostatistics, Data Analytics, & Statistical Programming Professional.</p>
-            <p class="quote-text">"Turning data into insights is my passion."</p>
             <button class="projects-button"><a href="#my-projects">My Projects</a></button>
+            <p class="quote-text">"Turning data into insights is my passion."</p>
         </div>
         <div style="flex: 1; text-align: center; padding-top: 10px;">
             <div style="display: inline-block; 
