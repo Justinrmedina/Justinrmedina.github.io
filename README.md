@@ -93,6 +93,21 @@
             margin: 0;
         }
 
+        .projects-button {
+            background-color: cornflowerblue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        .projects-button a {
+            text-decoration: none;
+            color: white;
+        }
+
         footer {
             position: absolute;
             bottom: 0;
@@ -127,6 +142,7 @@
             <h2>Justin R. Medina</h2>
             <p>Applied Biostatistics, Data Analytics, & Statistical Programming Professional.</p>
             <p class="quote-text">"Turning data into insights is my passion."</p>
+            <button class="projects-button"><a href="#my-projects">My Projects</a></button>
         </div>
         <div style="flex: 1; text-align: center; padding-top: 10px;">
             <div style="display: inline-block; 
@@ -142,14 +158,19 @@
                 margin-left: -2px;
                 margin-right: -2px;
                 border-radius: 0px;">
+                </div>
+                </div>
             </div>
-        </div>
-    </div>
-</article>
+        </article>
 
         <article id="about">
             <h2>About Section</h2>
             <!-- Content for the about section -->
+        </article>
+
+        <article id="my-projects">
+            <h2>My Projects</h2>
+            <!-- Content for the projects section -->
         </article>
 
         <article id="contact">
