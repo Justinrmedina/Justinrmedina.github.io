@@ -98,7 +98,7 @@
             margin: 60px auto 0px auto;
             background-color: cornflowerblue;
             color: white;
-            padding: 5px 10px;
+            padding: 5px 5px;
             border: none;
             border-radius: 10px;
             font-size: 1.2em;
