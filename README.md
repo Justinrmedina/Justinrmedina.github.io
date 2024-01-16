@@ -95,7 +95,7 @@
 
         .projects-button {
             display: block;
-            margin: 60 auto 0 auto;
+            margin: 60px auto 0px auto;
             background-color: cornflowerblue;
             color: white;
             padding: 5px 10px;
