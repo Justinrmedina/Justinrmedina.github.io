@@ -88,7 +88,7 @@
 
         #home .quote-text {
             text-align: center;
-            font-size: 1.5em; /* Adjust the font size as needed */
+            font-size: 1.7em; /* Adjust the font size as needed */
             font-style: italic; /* Italicize the text */
             margin-top: 60px;
         }
@@ -102,13 +102,14 @@
             padding: 5px 10px;
             border: none;
             border-radius: 10px;
-            font-size: 1em;
+            font-size: 1.2em;
             cursor: pointer;
+            font-weight: bold
             
         }
 
         .projects-button a {
-            text-decoration: underline;
+            text-decoration: none;
             color: white;
         }
 
@@ -143,7 +144,7 @@
     <div style="display: flex; justify-content: space-between; align-items: start;">
         <div style="flex: 1; text-align: right;">
             <!-- Text content on the left -->
-            <h2>Justin R. Medina</h2>
+            <h1>Justin R. Medina</h1>
             <p>Applied Biostatistics, Data Analytics, & Statistical Programming Professional.</p>
             <p class="quote-text">"Turning data into insights is my passion."</p>
             <button class="projects-button"><a href="#my-projects">My Projects</a></button>
