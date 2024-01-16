@@ -35,7 +35,7 @@
             text-align: center;
             margin: 0;
             font-family: 'Arial', sans-serif;
-            font-size: 0.9em;
+            font-size: 1.2em;
             position: relative;
             z-index: 1;
         }
