@@ -77,7 +77,7 @@
             color: white;
             position: relative;
             z-index: 2;
-            margin: 0;
+            margin: 20px 0px;
         }
 
         #home {
