@@ -36,8 +36,10 @@
             margin: 0;
             font-family: 'Arial', sans-serif;
             font-size: 1em;
-            position: relative;
-            z-index: 1;
+            position: sticky;
+            top: 0;
+            background-color: rgba(0, 0, 0, 0.6);
+            z-index: 3;
         }
 
         nav {
@@ -78,6 +80,7 @@
             position: relative;
             z-index: 2;
             margin: 20px 0px;
+            padding-bottom: 40px;
         }
 
         #home {
