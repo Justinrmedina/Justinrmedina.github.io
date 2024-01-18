@@ -116,7 +116,7 @@
             bottom: 0;
             width: 100%;
             color: white;
-            text-align: right;
+            text-align: center;
             padding: 10px;
             z-index: 1;
         }
