@@ -103,8 +103,7 @@
             border-radius: 10px;
             font-size: 1.2em;
             cursor: pointer;
-            /*font-weight: bold*/
-            
+            /*font-weight: bold*/  
         }
 
         .projects-button a {
@@ -113,11 +112,11 @@
         }
 
         footer {
-            position: absolute;
+            position: fixed;
             bottom: 0;
             width: 100%;
             color: white;
-            text-align: center;
+            text-align: right;
             padding: 10px;
             z-index: 1;
         }
