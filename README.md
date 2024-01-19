@@ -36,7 +36,6 @@
             position: sticky;
             z-index: 3;
             margin: 0;
-            background-color: rgba(250, 250, 250, 0.2);
       
         }
 
@@ -45,8 +44,8 @@
             justify-content: flex-end;
             align-items: center;
             z-index: 2;
-            /*margin: 0;*/
-            /*background-color: rgba(250, 250, 250, 0.6);*/
+            margin-top: 10px;
+            background-color: rgba(250, 250, 250, 0.6);
       		height: 50px;
         }
 
