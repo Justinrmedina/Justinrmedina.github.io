@@ -49,7 +49,7 @@
             list-style: none;
       		display: flex;
      		align-items: center;
-      		height: 50px;
+      		/*height: 50px;*/
             margin: 0;
         }
 
