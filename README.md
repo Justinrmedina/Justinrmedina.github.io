@@ -63,7 +63,7 @@
         nav a {
             text-decoration: none;
             color: white;
-            /*font-size: 1em;*/
+            font-size: 1.5em;
             /*margin: 0;*/
         }
 
