@@ -35,7 +35,7 @@
             /*font-size: 1em;*/
             position: sticky;
             z-index: 3;
-            /*margin: 0;*/
+            margin: 0;
         }
 
         nav {
@@ -64,7 +64,7 @@
             text-decoration: none;
             color: white;
             font-size: 1.5em;
-            margin: 0;
+            /*margin: 0;*/
         }
 
         #resume-link {
