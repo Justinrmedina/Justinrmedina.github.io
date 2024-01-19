@@ -35,12 +35,14 @@
             font-size: 1em;
             position: sticky;
             z-index: 3;
+            margin: 0;
         }
 
         nav {
             display: flex;
             justify-content: flex-end;
             z-index: 2;
+            margin: 0;
             background-color: rgba(250, 250, 250, 0.6);
       		/*height: 50px;*/
         }
