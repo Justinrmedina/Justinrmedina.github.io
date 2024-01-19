@@ -72,6 +72,7 @@
             text-decoration: none;
             color: white;
             line-height: 50px;
+            font-size: 1em;
         }
 
         #resume-link {
@@ -80,6 +81,8 @@
             border-radius: 50px;
             border: 2px solid cornflowerblue;
             margin-right: 10px;
+            font-size: 1em;
+            font-family: 'Arial', sans-serif;
             font-weight: bold;
         }
 
