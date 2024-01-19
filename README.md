@@ -36,6 +36,7 @@
             margin: 0;
             font-family: 'Arial', sans-serif;
             font-size: 1em;
+            vertical-align: middle;
             position: sticky;
             /*top: 0;*/
             background-color: rgba(250, 250, 250, 0.3);
