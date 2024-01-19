@@ -48,7 +48,7 @@
             align-items: center;
             height: 100%;
             z-index: 2;
-            background-color: rgba(250, 250, 250, 0.3);
+            background-color: rgba(250, 250, 250, 0.8);
             /*border-bottom: 1px solid white;*/
         }
 
