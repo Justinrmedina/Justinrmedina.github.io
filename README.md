@@ -34,7 +34,7 @@
             font-family: 'Arial', sans-serif;
             font-size: 1em;
             position: sticky;
-            /*z-index: 3;*/
+            z-index: 3;
             /*margin: 0;*/
         }
 
