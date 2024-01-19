@@ -106,14 +106,6 @@
             font-weight: bold;
         }
 
-        main {
-            color: white;
-            position: relative;
-            z-index: 2;
-            margin: 20px 0px;
-            padding-bottom: 40px;
-        }
-
         #home {
             background-color: rgba(0, 0, 0, 0.6); /* Transparent black background */
             border-radius: 10px; /* Round edges */
