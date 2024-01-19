@@ -32,7 +32,7 @@
         header {
             color: white;
             font-family: 'Arial', sans-serif;
-            /*font-size: 1em;*/
+            font-size: 1.2em;
             position: sticky;
             z-index: 3;
             margin: 0;
@@ -63,7 +63,6 @@
         nav a {
             text-decoration: none;
             color: white;
-            font-size: 1.5em;
             /*margin: 0;*/
         }
 
