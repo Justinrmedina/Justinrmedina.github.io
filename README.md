@@ -35,7 +35,7 @@
             font-size: 1.2em;
             position: sticky;
             z-index: 3;
-            margin: 0;
+            /*margin: 0;*/
       
         }
 
@@ -44,16 +44,15 @@
             justify-content: flex-end;
             align-items: center;
             z-index: 2;
-            /*margin-top: 10px;*/
-            background-color: rgba(250, 250, 250, 0.2);
+            background-color: rgba(250, 250, 250, 0.6);
       		height: 50px;
         }
 
         nav ul {
             list-style: none;
-      		/*display: inline;*/
-     		/*align-items: center;*/
-      		/*height: 50px;*/
+      		display: flex;
+     		align-items: center;
+      		height: 50px;
             margin-top: 10px;
         }
 
