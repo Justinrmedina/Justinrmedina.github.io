@@ -8,9 +8,9 @@
         body {
             margin: 0;
             padding: 0;
-            position: absolute;
+            position: relative;
             width: 100%;
-            height: 100vh;
+            height: 100%;
             overflow: hidden;
         }
 
@@ -25,21 +25,27 @@
             z-index: 0;
         }
 
+        #home {
+            overflow: hidden; /* Hide overflow for the Home section */
+        }
+
         .falling-shapes-container {
-            position: absolute;
+            position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
             overflow: hidden;
             z-index: 1;
+            pointer-events: none; /* Make falling shapes not interactable */
         }
 
         .falling-shapes {
             position: absolute;
             width: 20px;
             height: 20px;
-            background-color: #3498db;
+            background-color: white;
+            border: 1px solid black; /* Black outline */
             animation: fall 2s linear infinite;
         }
 
@@ -47,6 +53,12 @@
             to {
                 transform: translateY(100vh);
             }
+        }
+
+        main {
+            overflow-y: auto;
+            position: relative;
+            z-index: 2;
         }
 
         header {
@@ -103,15 +115,15 @@
         }
 
         #home {
-            background-color: rgba(0, 0, 0, 0.6);
-            border-radius: 10px;
-            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6); /* Transparent black background */
+            border-radius: 10px; /* Round edges */
+            padding: 20px; /* Add padding for better visibility */
         }
 
         #home .quote-text {
             text-align: center;
-            font-size: 1.7em;
-            font-style: italic;
+            font-size: 1.7em; /* Adjust the font size as needed */
+            font-style: italic; /* Italicize the text */
             margin-top: 60px;
         }
 
@@ -141,6 +153,9 @@
             padding: 10px;
             z-index: 3;
         }
+
+        /* Rest of your existing styles remain unchanged */
+
     </style>
 </head>
 <body>
@@ -150,7 +165,7 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#sinyapps">ShinyApps</a></li>
+                <li><a href="#my-projects">My Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="Medina_Justin_Resume.pdf" id="resume-link" target="_blank">Resume</a></li>
             </ul>
@@ -161,6 +176,7 @@
         <article id="home">
             <div style="display: flex; justify-content: space-between; align-items: start;">
                 <div style="flex: 1; text-align: right;">
+                    <!-- Text content on the left -->
                     <h1>Justin R. Medina</h1>
                     <p>Applied Biostatistics, Data Analytics, & Statistical Programming Professional.</p>
                     <p class="quote-text">"Turning data into insights is my passion."</p>
@@ -180,6 +196,15 @@
                         border-radius: 0px;">
                     </div>
                 </div>
+            </div>
+            <!-- Falling shapes container -->
+            <div class="falling-shapes-container">
+                <!-- Falling shapes elements -->
+                <div class="falling-shapes"></div>
+                <div class="falling-shapes"></div>
+                <div class="falling-shapes"></div>
+                <div class="falling-shapes"></div>
+                <!-- You can add more falling shapes as needed -->
             </div>
         </article>
 
@@ -203,15 +228,9 @@
         <p>&copy; 2024 J. Medina's Data Portfolio. All rights reserved.</p>
     </footer>
 
-    <!-- Falling shapes container -->
-    <div class="falling-shapes-container">
-        <!-- Falling shapes elements -->
-        <div class="falling-shapes"></div>
-        <!-- You can add more falling shapes as needed -->
-    </div>
-
 </body>
 </html>
+
 
 
 
