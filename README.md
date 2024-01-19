@@ -31,7 +31,7 @@
 
         header {
             color: white;
-            padding: 1px;
+            padding: 0px;
             text-align: center;
             margin: 0;
             font-family: 'Arial', sans-serif;
@@ -60,13 +60,13 @@
         nav li {
             display: inline;
             margin-right: 10px;
-            height: 60px;
+            height: 30px;
         }
 
         nav a {
             text-decoration: none;
             color: white;
-            line-height: 60px;
+            line-height: 30px;
         }
 
         #resume-link {
