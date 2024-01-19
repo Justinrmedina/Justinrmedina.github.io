@@ -55,18 +55,21 @@
             list-style: none;
             padding: 0;
             margin: 0;
+            height: 30px;
+            display: flex;
+            align-items: center;
         }
 
         nav li {
             display: inline;
             margin-right: 10px;
-            height: 30px;
+            height: 100%;
+            line-height: 30px;
         }
 
         nav a {
             text-decoration: none;
             color: white;
-            line-height: 30px;
         }
 
         #resume-link {
