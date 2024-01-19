@@ -42,7 +42,7 @@
             justify-content: flex-end;
             z-index: 2;
             background-color: rgba(250, 250, 250, 0.6);
-      		height: 50px;
+      		/*height: 50px;*/
         }
 
         nav ul {
