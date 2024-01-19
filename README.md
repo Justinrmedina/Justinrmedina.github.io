@@ -36,6 +36,7 @@
             position: sticky;
             z-index: 3;
             margin: 0;
+      
         }
 
         nav {
@@ -49,10 +50,10 @@
 
         nav ul {
             list-style: none;
-      		display: inline;
-     		align-items: center;
+      		/*display: inline;*/
+     		/*align-items: center;*/
       		/*height: 50px;*/
-            /*margin: 0;*/
+            margin: 0;
         }
 
         nav li {
@@ -71,8 +72,8 @@
             padding: 2px 5px;
             border-radius: 50px;
             border: 2px solid cornflowerblue;
-            margin-right: 10px;
-            font-size: 1em;
+            /*margin-right: 10px;*/
+            /*font-size: 1em;*/
             font-family: 'Arial', sans-serif;
             font-weight: bold;
         }
