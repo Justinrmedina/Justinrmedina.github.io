@@ -25,7 +25,7 @@
             left: 0;
             width: 100vw;
             height: 100vh;
-            background-color: rgba(0, 0, 0, 0.1);
+            background-color: rgba(0, 0, 0, 0.5);
             z-index: 0;
         }
 
@@ -43,7 +43,7 @@
             justify-content: flex-end;
             z-index: 2;
             /*margin: 0;*/
-            background-color: rgba(250, 250, 250, 0.6);
+            background-color: rgba(250, 250, 250, 0.2);
       		/*height: 50px;*/
         }
 
