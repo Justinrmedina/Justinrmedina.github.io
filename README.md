@@ -31,7 +31,6 @@
 
         header {
             color: white;
-            /*text-align: center;*/
             font-family: 'Arial', sans-serif;
             font-size: 1em;
             position: sticky;
@@ -41,16 +40,19 @@
         nav {
             display: flex;
             justify-content: flex-end;
-            /*align-items: center;*/
             z-index: 2;
             background-color: rgba(250, 250, 250, 0.6);
-            /*border-bottom: 1px solid white;*/
+      		align-items: center;
+      		height: 50px;
         }
 
         nav ul {
             list-style: none;
-            /*display: flex;*/
-            /*align-items: center;*/
+      		display: flex;
+     		align-items: center;
+      		height: 50px;
+      margin: 0;
+      padding: 0;
         }
 
         nav li {
@@ -105,8 +107,7 @@
             border: none;
             border-radius: 10px;
             font-size: 1.2em;
-            cursor: pointer;
-            /*font-weight: bold*/  
+            cursor: pointer; 
         }
 
         .projects-button a {
@@ -190,6 +191,3 @@
     </footer>
 </body>
 </html>
-
-
-
