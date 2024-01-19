@@ -37,8 +37,8 @@
             font-family: 'Arial', sans-serif;
             font-size: 1em;
             position: sticky;
-            top: 0;
-            /*background-color: rgba(250, 250, 250, 1);*/
+            /*top: 0;*/
+            background-color: rgba(250, 250, 250, 1);
             z-index: 3;
         }
 
@@ -47,7 +47,7 @@
             justify-content: flex-end;
             align-items: center;
             z-index: 2;
-            border-bottom: 1px solid white;
+            /*border-bottom: 1px solid white;*/
         }
 
         nav ul {
