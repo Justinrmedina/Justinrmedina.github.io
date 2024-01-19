@@ -31,7 +31,7 @@
 
         header {
             color: white;
-            text-align: center;
+            /*text-align: center;*/
             font-family: 'Arial', sans-serif;
             font-size: 1em;
             position: sticky;
@@ -41,7 +41,7 @@
         nav {
             display: flex;
             justify-content: flex-end;
-            align-items: center;
+            /*align-items: center;*/
             z-index: 2;
             background-color: rgba(250, 250, 250, 0.6);
             /*border-bottom: 1px solid white;*/
@@ -49,12 +49,12 @@
 
         nav ul {
             list-style: none;
-            display: flex;
-            align-items: center;
+            /*display: flex;*/
+            /*align-items: center;*/
         }
 
         nav li {
-            display: inline;
+            /*display: inline;*/
             margin-right: 10px;
         }
 
