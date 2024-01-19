@@ -62,6 +62,7 @@
             text-decoration: none;
             color: white;
             font-size: 1em;
+            margin: 0;
         }
 
         #resume-link {
