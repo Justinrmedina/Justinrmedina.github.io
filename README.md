@@ -44,7 +44,7 @@
             justify-content: flex-end;
             align-items: center;
             z-index: 2;
-            background-color: rgba(250, 250, 250, 0.6);
+            background-color: rgba(250, 250, 250, 0.2);
       		height: 50px;
         }
 
@@ -53,7 +53,7 @@
       		/*display: flex;*/
      		/*align-items: center;*/
       		height: 50px;
-            margin-top: 50px;
+            margin-top: -50px;
         }
 
         nav li {
