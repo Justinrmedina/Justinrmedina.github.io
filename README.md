@@ -35,14 +35,14 @@
             font-size: 1em;
             position: sticky;
             z-index: 3;
-            margin: 0;
+            /*margin: 0;*/
         }
 
         nav {
             display: flex;
             justify-content: flex-end;
             z-index: 2;
-            margin: 0;
+            /*margin: 0;*/
             background-color: rgba(250, 250, 250, 0.1);
       		/*height: 50px;*/
         }
@@ -52,7 +52,7 @@
       		display: flex;
      		align-items: center;
       		/*height: 50px;*/
-            margin: 0;
+            /*margin: 0;*/
         }
 
         nav li {
@@ -63,8 +63,8 @@
         nav a {
             text-decoration: none;
             color: white;
-            font-size: 1em;
-            margin: 0;
+            /*font-size: 1em;*/
+            /*margin: 0;*/
         }
 
         #resume-link {
