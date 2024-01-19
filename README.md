@@ -31,14 +31,10 @@
 
         header {
             color: white;
-            padding: 0px;
             text-align: center;
-            margin: 0;
             font-family: 'Arial', sans-serif;
             font-size: 1em;
             position: sticky;
-            /*top: 0;*/
-            /*background-color: rgba(250, 250, 250, 0.3);*/
             z-index: 3;
         }
 
@@ -54,9 +50,6 @@
 
         nav ul {
             list-style: none;
-            padding: 0;
-            margin: 0;
-            /*height: 30px;*/
             display: flex;
             align-items: center;
         }
@@ -64,14 +57,11 @@
         nav li {
             display: inline;
             margin-right: 10px;
-            /*height: 100%;*/
-            line-height: 50px;
         }
 
         nav a {
             text-decoration: none;
             color: white;
-            line-height: 50px;
             font-size: 1em;
         }
 
