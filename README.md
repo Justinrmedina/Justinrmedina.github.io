@@ -38,7 +38,7 @@
             font-size: 1em;
             position: sticky;
             /*top: 0;*/
-            background-color: rgba(250, 250, 250, 1);
+            background-color: rgba(250, 250, 250, 0.3);
             z-index: 3;
         }
 
