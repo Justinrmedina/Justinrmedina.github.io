@@ -43,13 +43,13 @@
             justify-content: flex-end;
             /*z-index: 2;*/
             /*margin: 0;*/
-            background-color: rgba(250, 250, 250, 0.1);
+            background-color: rgba(250, 250, 250, 0.6);
       		/*height: 50px;*/
         }
 
         nav ul {
             list-style: none;
-      		display: flex;
+      		display: inline;
      		align-items: center;
       		/*height: 50px;*/
             /*margin: 0;*/
