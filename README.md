@@ -42,10 +42,11 @@
         nav {
             display: flex;
             justify-content: flex-end;
+            align-items: center;
             z-index: 2;
             /*margin: 0;*/
             background-color: rgba(250, 250, 250, 0.6);
-      		/*height: 50px;*/
+      		height: 50px;
         }
 
         nav ul {
