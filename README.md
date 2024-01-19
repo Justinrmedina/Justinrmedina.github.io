@@ -47,7 +47,8 @@
             justify-content: flex-end;
             align-items: center;
             z-index: 2;
-            background-color: rgba(250, 250, 250, 0.4);
+            height: 30px;
+            background-color: rgba(250, 250, 250, 0.8);
             /*border-bottom: 1px solid white;*/
         }
 
@@ -55,7 +56,7 @@
             list-style: none;
             padding: 0;
             margin: 0;
-            height: 30px;
+            /*height: 30px;*/
             display: flex;
             align-items: center;
         }
