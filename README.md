@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,13 +10,14 @@
             margin: 0;
             padding: 0;
             position: absolute;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden; /* Hide overflowing elements */
             background-image: url('Programming image2 small.png');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
             background-position: center center;
-            width: 100%; /* Set width to cover the entire device width */
-            height: 100vh;
         }
 
         body::before {
@@ -29,6 +31,21 @@
             z-index: 0;
         }
 
+        .falling-shapes {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: #3498db; /* Change color as needed */
+            animation: fall 2s linear infinite;
+            z-index: 1; /* Place the falling shapes above the background overlay */
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(100vh);
+            }
+        }
+
         header {
             color: white;
             padding: 1px;
@@ -38,7 +55,6 @@
             font-size: 1em;
             position: sticky;
             top: 0;
-            /*background-color: rgba(250, 250, 250, 1);*/
             z-index: 3;
         }
 
@@ -106,7 +122,6 @@
             border-radius: 10px;
             font-size: 1.2em;
             cursor: pointer;
-            /*font-weight: bold*/  
         }
 
         .projects-button a {
@@ -123,7 +138,6 @@
             padding: 10px;
             z-index: 3;
         }
-
     </style>
 </head>
 <body>
@@ -142,29 +156,27 @@
 
     <main>
         <article id="home">
-    <div style="display: flex; justify-content: space-between; align-items: start;">
-        <div style="flex: 1; text-align: right;">
-            <!-- Text content on the left -->
-            <h1>Justin R. Medina</h1>
-            <p>Applied Biostatistics, Data Analytics, & Statistical Programming Professional.</p>
-            <p class="quote-text">"Turning data into insights is my passion."</p>
-            <button class="projects-button"><a href="#my-projects">My Projects</a></button>
-        </div>
-        <div style="flex: 1; text-align: center; padding-top: 10px;">
-            <div style="display: inline-block; 
-            border: 5px solid white; 
-            align-items: stretch;
-            overflow: hidden;
-            /*border-radius: 8px; */
-            /*padding: 4px;*/
-            ">
-                <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 400px; 
-                height: 450px; 
-                margin-bottom: -8px;
-                margin-left: -2px;
-                margin-right: -2px;
-                border-radius: 0px;">
+            <div style="display: flex; justify-content: space-between; align-items: start;">
+                <div style="flex: 1; text-align: right;">
+                    <!-- Text content on the left -->
+                    <h1>Justin R. Medina</h1>
+                    <p>Applied Biostatistics, Data Analytics, & Statistical Programming Professional.</p>
+                    <p class="quote-text">"Turning data into insights is my passion."</p>
+                    <button class="projects-button"><a href="#my-projects">My Projects</a></button>
                 </div>
+                <div style="flex: 1; text-align: center; padding-top: 10px;">
+                    <div style="display: inline-block; 
+                    border: 5px solid white; 
+                    align-items: stretch;
+                    overflow: hidden;
+                    ">
+                        <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 400px; 
+                        height: 450px; 
+                        margin-bottom: -8px;
+                        margin-left: -2px;
+                        margin-right: -2px;
+                        border-radius: 0px;">
+                    </div>
                 </div>
             </div>
         </article>
@@ -188,5 +200,10 @@
     <footer>
         <p>&copy; 2024 J. Medina's Data Portfolio. All rights reserved.</p>
     </footer>
+
+    <!-- Add falling shapes element -->
+    <div class="falling-shapes"></div>
+
 </body>
 </html>
+
