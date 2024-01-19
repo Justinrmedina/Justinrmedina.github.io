@@ -50,10 +50,10 @@
 
         nav ul {
             list-style: none;
-      		display: flex;
-     		align-items: center;
+      		/*display: flex;*/
+     		/*align-items: center;*/
       		height: 50px;
-            margin-top: 10px;
+            margin-top: 50px;
         }
 
         nav li {
