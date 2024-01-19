@@ -46,9 +46,8 @@
             display: flex;
             justify-content: flex-end;
             align-items: center;
-            height: 100%;
             z-index: 2;
-            background-color: rgba(250, 250, 250, 0.8);
+            background-color: rgba(250, 250, 250, 0.4);
             /*border-bottom: 1px solid white;*/
         }
 
@@ -61,11 +60,13 @@
         nav li {
             display: inline;
             margin-right: 10px;
+            height: 60px;
         }
 
         nav a {
             text-decoration: none;
             color: white;
+            line-height: 60px;
         }
 
         #resume-link {
