@@ -43,7 +43,7 @@
             justify-content: flex-end;
             z-index: 2;
             margin: 0;
-            background-color: rgba(250, 250, 250, 0.6);
+            background-color: rgba(250, 250, 250, 0.1);
       		/*height: 50px;*/
         }
 
