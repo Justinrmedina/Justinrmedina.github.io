@@ -64,7 +64,7 @@
         nav li {
             display: inline;
             margin-right: 10px;
-            height: 100%;
+            /*height: 100%;*/
             line-height: 50px;
         }
 
