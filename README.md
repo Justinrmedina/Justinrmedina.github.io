@@ -54,7 +54,7 @@
         }
 
         nav li {
-            /*display: inline;*/
+            display: inline;
             margin-right: 10px;
         }
 
