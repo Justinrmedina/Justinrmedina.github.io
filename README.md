@@ -42,7 +42,6 @@
             justify-content: flex-end;
             z-index: 2;
             background-color: rgba(250, 250, 250, 0.6);
-      		align-items: center;
       		height: 50px;
         }
 
@@ -51,8 +50,7 @@
       		display: flex;
      		align-items: center;
       		height: 50px;
-      margin: 0;
-      padding: 0;
+            margin: 0;
         }
 
         nav li {
