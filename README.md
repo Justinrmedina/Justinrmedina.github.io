@@ -190,7 +190,13 @@
             <h2>Contact Section</h2>
             <!-- Content for the contact section -->
         </article>
+  </main>
 
+    <footer>
+        <p>&copy; 2024 J. Medina's Data Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
 
 
