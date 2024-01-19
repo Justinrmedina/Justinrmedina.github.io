@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,12 +11,7 @@
             position: absolute;
             width: 100%;
             height: 100vh;
-            overflow: hidden; /* Hide overflowing elements */
-            background-image: url('Programming image2 small.png');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-            background-position: center center;
+            overflow: hidden;
         }
 
         body::before {
@@ -31,13 +25,22 @@
             z-index: 0;
         }
 
+        .falling-shapes-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 1;
+        }
+
         .falling-shapes {
             position: absolute;
             width: 20px;
             height: 20px;
-            background-color: #3498db; /* Change color as needed */
+            background-color: #3498db;
             animation: fall 2s linear infinite;
-            z-index: 1; /* Place the falling shapes above the background overlay */
         }
 
         @keyframes fall {
@@ -100,15 +103,15 @@
         }
 
         #home {
-            background-color: rgba(0, 0, 0, 0.6); /* Transparent black background */
-            border-radius: 10px; /* Round edges */
-            padding: 20px; /* Add padding for better visibility */
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            padding: 20px;
         }
 
         #home .quote-text {
             text-align: center;
-            font-size: 1.7em; /* Adjust the font size as needed */
-            font-style: italic; /* Italicize the text */
+            font-size: 1.7em;
+            font-style: italic;
             margin-top: 60px;
         }
 
@@ -158,7 +161,6 @@
         <article id="home">
             <div style="display: flex; justify-content: space-between; align-items: start;">
                 <div style="flex: 1; text-align: right;">
-                    <!-- Text content on the left -->
                     <h1>Justin R. Medina</h1>
                     <p>Applied Biostatistics, Data Analytics, & Statistical Programming Professional.</p>
                     <p class="quote-text">"Turning data into insights is my passion."</p>
@@ -201,9 +203,15 @@
         <p>&copy; 2024 J. Medina's Data Portfolio. All rights reserved.</p>
     </footer>
 
-    <!-- Add falling shapes element -->
-    <div class="falling-shapes"></div>
+    <!-- Falling shapes container -->
+    <div class="falling-shapes-container">
+        <!-- Falling shapes elements -->
+        <div class="falling-shapes"></div>
+        <!-- You can add more falling shapes as needed -->
+    </div>
 
 </body>
 </html>
+
+
 
