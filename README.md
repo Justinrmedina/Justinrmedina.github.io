@@ -41,7 +41,7 @@
         nav {
             display: flex;
             justify-content: flex-end;
-            /*z-index: 2;*/
+            z-index: 2;
             /*margin: 0;*/
             background-color: rgba(250, 250, 250, 0.6);
       		/*height: 50px;*/
