@@ -44,8 +44,8 @@
             justify-content: flex-end;
             align-items: center;
             z-index: 2;
-            margin-top: 10px;
-            background-color: rgba(250, 250, 250, 0.6);
+            /*margin-top: 10px;*/
+            background-color: rgba(250, 250, 250, 0.2);
       		height: 50px;
         }
 
@@ -54,7 +54,7 @@
       		/*display: inline;*/
      		/*align-items: center;*/
       		/*height: 50px;*/
-            margin: 0;
+            margin-top: 10px;
         }
 
         nav li {
