@@ -71,6 +71,7 @@
         nav a {
             text-decoration: none;
             color: white;
+            line-height: 50px;
         }
 
         #resume-link {
