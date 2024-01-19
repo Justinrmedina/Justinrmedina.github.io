@@ -64,7 +64,7 @@
             text-decoration: none;
             color: white;
             font-size: 1.5em;
-            /*margin: 0;*/
+            margin: 0;
         }
 
         #resume-link {
