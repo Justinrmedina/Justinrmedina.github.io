@@ -45,8 +45,8 @@
             justify-content: flex-end;
             align-items: center;
             z-index: 2;
-            background-color: rgba(250, 250, 250, 0.2);
-      		height: 40px;
+            background-color: rgba(255, 255, 240, 0.7);
+      		height: 60px;
         }
 
         nav ul {
