@@ -45,7 +45,7 @@
             justify-content: flex-end;
             align-items: center;
             z-index: 2;
-            background-color: rgba(255, 255, 240, 0.7);
+            background-color: rgba(255, 255, 240, 0.5);
       		height: 60px;
         }
 
