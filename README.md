@@ -82,7 +82,7 @@
             color: white;
             position: relative;
             z-index: 2;
-            margin: 20px 0px;
+            /*margin: 20px 0px;*/
             padding-bottom: 40px;
         }
 
