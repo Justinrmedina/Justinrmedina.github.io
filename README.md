@@ -45,15 +45,15 @@
             align-items: center;
             z-index: 2;
             background-color: rgba(250, 250, 250, 0.2);
-      		height: 50px;
+      		/*height: 50px;*/
         }
 
         nav ul {
             list-style: none;
-      		display: flex;
+      		/*display: flex;*/
      		/*align-items: center;*/
-      		height: 50px;
-            margin-top: 50px;
+      		/*height: 50px;*/
+            /*margin-top: 50px;*/
         }
 
         nav li {
