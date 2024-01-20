@@ -41,10 +41,11 @@
 
         nav {
             display: flex;
+            padding: 50px;
             justify-content: flex-end;
             align-items: center;
             z-index: 2;
-            /*background-color: rgba(250, 250, 250, 0.2);*/
+            background-color: rgba(250, 250, 250, 0.2);
       		/*height: 50px;*/
         }
 
