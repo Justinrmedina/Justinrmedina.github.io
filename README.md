@@ -41,7 +41,7 @@
 
         nav {
             display: flex;
-            padding: 50px;
+            padding-top: 10px;
             justify-content: flex-end;
             align-items: center;
             z-index: 2;
