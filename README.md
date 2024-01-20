@@ -117,6 +117,12 @@
             color: white;
         }
 
+        #about {
+            background-color: rgba(0, 0, 0, 0.6); /* Transparent black background */
+            border-radius: 10px; /* Round edges */
+            padding: 20px; /* Add padding for better visibility */
+        }
+        
         footer {
             position: fixed;
             bottom: 0;
@@ -173,8 +179,29 @@
         </article>
 
         <article id="about">
-            <h2>About Section</h2>
-            <!-- Content for the about section -->
+    <div style="display: flex; justify-content: space-between; align-items: start;">
+        <div style="flex: 1; text-align: right;">
+            <!-- Text content on the left -->
+            <h1>About myself</h1>
+            <p></p>
+        </div>
+        <div style="flex: 1; text-align: center; padding-top: 10px;">
+            <div style="display: inline-block; 
+            border: 5px solid white; 
+            align-items: stretch;
+            overflow: hidden;
+            /*border-radius: 8px; */
+            /*padding: 4px;*/
+            ">
+                <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 400px; 
+                height: 450px; 
+                margin-bottom: -8px;
+                margin-left: -2px;
+                margin-right: -2px;
+                border-radius: 0px;">
+                </div>
+                </div>
+            </div>
         </article>
 
         <article id="my-projects">
