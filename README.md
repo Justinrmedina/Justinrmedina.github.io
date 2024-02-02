@@ -122,7 +122,36 @@
             border-radius: 10px; /* Round edges */
             padding: 20px; /* Add padding for better visibility */
         }
-        
+
+        #my-projects {
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .project-cell {
+            text-align: center;
+            border: 2px solid white;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        .project-cell img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .project-cell p {
+            color: white;
+        }
+
         footer {
             position: fixed;
             bottom: 0;
@@ -204,10 +233,43 @@
             </div>
         </article>
 
-        <article id="my-projects">
+
+       <article id="my-projects">
             <h2>My Projects</h2>
-            <!-- Content for the projects section -->
+    
+            <div class="project-grid">
+                <div class="project-cell">
+                    <img src="PowerBI_dash1.png" alt="Project 1">
+                    <p>Description for Project 1</p>
+                </div>
+
+                <div class="project-cell">
+                    <img src="PowerBI_report.png" alt="Project 2">
+                    <p>Description for Project 2</p>
+                </div>
+
+                <div class="project-cell">
+                    <img src="RShiny.png" alt="Project 3">
+                    <p>Description for Project 3</p>
+                </div>
+
+                <div class="project-cell">
+                    <img src="Rvisual_multipane2.png" alt="Project 4">
+                    <p>Description for Project 4</p>
+                </div>
+
+                <div class="project-cell">
+                    <img src="Rvisual_regression.png" alt="Project 5">
+                    <p>Description for Project 5</p>
+                </div>
+
+                <div class="project-cell">
+                    <img src="RMarkdown.png" alt="Project 6">
+                    <p>Description for Project 6</p>
+                </div>
+            </div>
         </article>
+        
 
         <article id="contact">
             <h2>Contact Section</h2>
