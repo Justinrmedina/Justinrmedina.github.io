@@ -205,7 +205,7 @@
             /*border-radius: 8px; */
             /*padding: 4px;*/
             ">
-                <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 400px; 
+                <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 410px; 
                 height: 450px; 
                 margin-bottom: -8px;
                 margin-left: -2px;
@@ -232,7 +232,7 @@
             /*padding: 4px;*/
             ">
                 <img src="About_Me.jpg" alt="About Pic" style="width: 300px; 
-                height: 700px; 
+                height: 550px; 
                 margin-bottom: -8px;
                 margin-left: -2px;
                 margin-right: -2px;
