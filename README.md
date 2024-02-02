@@ -250,21 +250,24 @@
             <div class="project-grid">
                 <div class="project-cell">
                     <div class="image-scroll">
-                        <img src="PowerBI_dash1.png" alt="Project 1" style="margin: 0px 20px 0px;">
-                        <img src="PowerBI_dash2.png" alt="Project 2" style="margin: 0px 20px 0px;">
-                        <img src="PowerBI_dash3.png" alt="Project 3" style="margin: 0px 20px 0px;">
+                        <img src="PowerBI_dash1.png" alt="Project 1.1" style="margin: 0px 20px 0px;">
+                        <img src="PowerBI_dash2.png" alt="Project 1.2" style="margin: 0px 20px 0px;">
+                        <img src="PowerBI_dash3.png" alt="Project 1.3" style="margin: 0px 20px 0px;">
                     </div>
                     <p>Power BI report to visualize product status in product development pipeline</p>
                 </div>
 
                 <div class="project-cell">
-                    <img src="PowerBI_report.png" alt="Project 2">
-                    <p>Description for Project 2</p>
+                    <div class="image-scroll">
+                        <img src="PowerBI_report.png" alt="Project 2.1" style="margin: 0px 20px 0px;">
+                        <img src="RMarkdown.png" alt="Project 2.2" style="margin: 0px 20px 0px;">
+                    </div>
+                    <p>Paginated reports using Power BI Report Builder & R Markdown</p>
                 </div>
 
                 <div class="project-cell">
                     <img src="RShiny.png" alt="Project 3">
-                    <p>Description for Project 3</p>
+                    <p>Web based data visualization/analysis tools using R Shiny</p>
                 </div>
 
                 <div class="project-cell">
