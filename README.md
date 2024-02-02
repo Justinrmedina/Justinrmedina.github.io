@@ -248,9 +248,9 @@
             <div class="project-grid">
                 <div class="project-cell">
                     <div class="image-scroll">
-                        <img src="PowerBI_dash1.png" alt="Project 1" style="margin: 0px 10px 0px;">
-                        <img src="PowerBI_dash2.png" alt="Project 2" style="margin: 0px 10px 0px;">
-                        <img src="PowerBI_dash3.png" alt="Project 3" style="margin: 0px 10px 0px;">
+                        <img src="PowerBI_dash1.png" alt="Project 1" style="margin: 0px 20px 0px;">
+                        <img src="PowerBI_dash2.png" alt="Project 2" style="margin: 0px 20px 0px;">
+                        <img src="PowerBI_dash3.png" alt="Project 3" style="margin: 0px 20px 0px;">
                     </div>
                     <p>Power BI report to visualize product status in product development pipeline</p>
                 </div>
