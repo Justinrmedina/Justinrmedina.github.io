@@ -253,7 +253,8 @@
                     <div class="image-scroll">
                         <img src="PowerBI_report.png" alt="Project 2.1" style="margin: 0px 20px 10px;
                         height: 400px;">
-                        <img src="RMarkdown.png" alt="Project 2.2" style="margin: 0px 20px 10px;">
+                        <img src="RMarkdown.png" alt="Project 2.2" style="margin: 0px 20px 10px;
+                        height: 400px;">
                     </div>
                     <p>Paginated reports using Power BI Report Builder & R Markdown</p>
                 </div>
