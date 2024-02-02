@@ -35,7 +35,7 @@
             font-size: 1.2em;
             position: sticky;
             z-index: 3;
-            /*margin: 0;*/
+            margin-top: 0px;
       
         }
 
@@ -51,10 +51,6 @@
 
         nav ul {
             list-style: none;
-      		/*display: flex;*/
-     		/*align-items: center;*/
-      		/*height: 50px;*/
-            /*margin-top: 50px;*/
         }
 
         nav li {
@@ -65,7 +61,6 @@
         nav a {
             text-decoration: none;
             color: white;
-            /*margin: 0;*/
         }
 
         #resume-link {
@@ -73,8 +68,6 @@
             padding: 2px 5px;
             border-radius: 50px;
             border: 2px solid cornflowerblue;
-            /*margin-right: 10px;*/
-            /*font-size: 1em;*/
             font-family: 'Arial', sans-serif;
             font-weight: bold;
         }
@@ -83,7 +76,6 @@
             color: white;
             position: relative;
             z-index: 2;
-            /*margin: 20px 0px;*/
             padding-bottom: 40px;
         }
 
@@ -141,7 +133,6 @@
             border: 2px solid white;
             border-radius: 10px;
             padding: 10px;
-            /*overflow-x: scroll; */
         }
 
         .image-scroll {
