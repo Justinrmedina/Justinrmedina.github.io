@@ -146,6 +146,7 @@
         .image-scroll {
             display: flex;
             white-space: nowrap; /* Prevent images from wrapping to the next line */
+            overflow-x: auto;
         }
 
         .project-cell img {
