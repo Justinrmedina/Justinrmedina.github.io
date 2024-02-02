@@ -131,7 +131,7 @@
 
         .project-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 20px;
         }
 
@@ -140,13 +140,13 @@
             border: 2px solid white;
             border-radius: 10px;
             padding: 10px;
-            overflow-x: scroll; /* Enable horizontal scrolling */
+            /*overflow-x: scroll; */
         }
 
         .image-scroll {
             display: flex;
             white-space: nowrap; /* Prevent images from wrapping to the next line */
-            overflow-x: auto;
+            overflow-x: scroll;
         }
 
         .project-cell img {
