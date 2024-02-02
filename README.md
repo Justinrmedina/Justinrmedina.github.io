@@ -149,9 +149,10 @@
         }
 
         .project-cell img {
-            width: 200px; /* Adjust the width as needed */
+            width: 250px; /* Adjust the width as needed */
             border-radius: 8px;
-            margin-right: 20px; /* Adjust the spacing between images */
+            margin: 0px, 20px, 0px; /* Adjust the spacing between images */
+            
         }
 
         .project-cell p {
