@@ -140,18 +140,18 @@
             border: 2px solid white;
             border-radius: 10px;
             padding: 10px;
-            overflow-x: auto; /* Enable horizontal scrolling */
+            overflow: hidden; /* Hide overflow to contain the carousel */
         }
 
-        .image-scroll {
+        .image-carousel {
             display: flex;
-            white-space: nowrap; /* Prevent images from wrapping to the next line */
+            transition: transform 0.5s ease; /* Enable smooth transition for the carousel */
         }
 
         .project-cell img {
-            width: 200px; /* Adjust the width as needed */
+            width: 100%; /* Adjust the width as needed */
             border-radius: 8px;
-            margin-right: 10px; /* Adjust the spacing between images */
+            flex: 0 0 auto; /* Prevent images from stretching */
         }
 
         .project-cell p {
@@ -245,7 +245,7 @@
             <h2>My Projects</h2>
             <div class="project-grid">
                 <div class="project-cell">
-                    <div class="image-scroll">
+                    <div class="image-carousel">
                         <img src="PowerBI_dash1.png" alt="Project 1">
                         <img src="PowerBI_dash2.png" alt="Project 2">
                         <img src="PowerBI_dash3.png" alt="Project 3">
