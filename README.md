@@ -217,11 +217,12 @@
             </div>
         </article>
 
+
         <article id="about">
     <div style="display: flex; justify-content: space-between; align-items: start;">
-        <div style="flex: 1; text-align: right;">
+        <div style="flex: 1; text-align: left;">
             <!-- Text content on the left -->
-            <h1>About myself</h1>
+            <h1>About Me</h1>
             <p></p>
         </div>
         <div style="flex: 1; text-align: center; padding-top: 10px;">
