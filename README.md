@@ -114,6 +114,7 @@
             background-color: rgba(0, 0, 0, 0.6); /* Transparent black background */
             border-radius: 10px; /* Round edges */
             padding: 20px; /* Add padding for better visibility */
+            margin: 20px 0px 20px;
         }
 
         #my-projects {
@@ -181,21 +182,19 @@
 
     <main>
         <article id="home">
-    <div style="display: flex; justify-content: space-between; align-items: start;">
-        <div style="flex: 1; text-align: right;">
-            <!-- Text content on the left -->
-            <h1>Justin R. Medina</h1>
-            <p>Applied Biostatistics, Data Analytics, & Statistical Programming Professional.</p>
-            <p class="quote-text">"Turning data into insights is my passion."</p>
-            <button class="projects-button"><a href="#my-projects">My Projects</a></button>
-        </div>
+        <div style="display: flex; justify-content: space-between; align-items: start;">
+            <div style="flex: 1; text-align: right;">
+                <!-- Text content on the left -->
+                <h1>Justin R. Medina</h1>
+                <p>Applied Biostatistics, Data Analytics, & Statistical Programming Professional.</p>
+                <p class="quote-text">"Turning data into insights is my passion."</p>
+                <button class="projects-button"><a href="#my-projects">My Projects</a></button>
+            </div>
         <div style="flex: 1; text-align: center; padding-top: 10px;">
             <div style="display: inline-block; 
             border: 5px solid white; 
             align-items: stretch;
             overflow: hidden;
-            /*border-radius: 8px; */
-            /*padding: 4px;*/
             ">
                 <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 370px; 
                 height: 400px; 
