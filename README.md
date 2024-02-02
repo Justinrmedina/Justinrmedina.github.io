@@ -140,7 +140,7 @@
             border: 2px solid white;
             border-radius: 10px;
             padding: 10px;
-            overflow-x: auto; /* Enable horizontal scrolling */
+            overflow-x: scroll; /* Enable horizontal scrolling */
         }
 
         .image-scroll {
