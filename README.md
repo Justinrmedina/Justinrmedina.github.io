@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
             position: absolute;
-            background-image: url('Programming image2 small.png');
+            background-image: url('Programming Image small.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
@@ -45,7 +45,7 @@
             justify-content: flex-end;
             align-items: center;
             z-index: 2;
-            background-color: rgba(255, 255, 240, 0.5);
+            background-color: rgba(0, 0, 0, 0.6);
       		height: 60px;
         }
 
