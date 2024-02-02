@@ -91,6 +91,7 @@
             background-color: rgba(0, 0, 0, 0.6); /* Transparent black background */
             border-radius: 10px; /* Round edges */
             padding: 20px; /* Add padding for better visibility */
+            margin: 20px 0px 20px;
         }
 
         #home .quote-text {
