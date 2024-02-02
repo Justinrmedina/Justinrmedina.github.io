@@ -150,7 +150,7 @@
         }
 
         .project-cell img {
-            width: 250px; /* Adjust the width as needed */
+            width: 400px; /* Adjust the width as needed */
             border-radius: 8px;
             margin: 0px, 20px, 0px; /* Adjust the spacing between images */
             
@@ -248,9 +248,9 @@
             <div class="project-grid">
                 <div class="project-cell">
                     <div class="image-scroll">
-                        <img src="PowerBI_dash1.png" alt="Project 1">
-                        <img src="PowerBI_dash2.png" alt="Project 2">
-                        <img src="PowerBI_dash3.png" alt="Project 3">
+                        <img src="PowerBI_dash1.png" alt="Project 1" style="margin: 0px 20px 0px 0px;">
+                        <img src="PowerBI_dash2.png" alt="Project 2" style="margin: 0px 20px 0px 20px;">
+                        <img src="PowerBI_dash3.png" alt="Project 3" style="margin: 0px 0px 0px 20px;">
                     </div>
                     <p>Power BI report to visualize product status in product development pipeline</p>
                 </div>
