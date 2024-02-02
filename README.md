@@ -140,17 +140,24 @@
             border: 2px solid white;
             border-radius: 10px;
             padding: 10px;
+            overflow-x: auto; /* Enable horizontal scrolling */
+        }
+
+        .image-scroll {
+            display: flex;
+            white-space: nowrap; /* Prevent images from wrapping to the next line */
         }
 
         .project-cell img {
-            width: 100%;
+            width: 200px; /* Adjust the width as needed */
             border-radius: 8px;
-            margin-bottom: 10px;
+            margin-right: 10px; /* Adjust the spacing between images */
         }
 
         .project-cell p {
             color: white;
         }
+
 
         footer {
             position: fixed;
@@ -236,11 +243,14 @@
 
        <article id="my-projects">
             <h2>My Projects</h2>
-    
             <div class="project-grid">
                 <div class="project-cell">
-                    <img src="PowerBI_dash1.png" alt="Project 1">
-                    <p>Description for Project 1</p>
+                    <div class="image-scroll">
+                        <img src="PowerBI_dash1.png" alt="Project 1">
+                        <img src="PowerBI_dash2.png" alt="Project 2">
+                        <img src="PowerBI_dash3.png" alt="Project 3">
+                    </div>
+                    <p>Power BI report to visualize product status in product development pipeline</p>
                 </div>
 
                 <div class="project-cell">
