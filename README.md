@@ -206,8 +206,8 @@
             /*border-radius: 8px; */
             /*padding: 4px;*/
             ">
-                <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 410px; 
-                height: 450px; 
+                <img src="Profile Pic small.jpg" alt="Profile Pic" style="width: 310px; 
+                height: 350px; 
                 margin-bottom: -8px;
                 margin-left: -2px;
                 margin-right: -2px;
