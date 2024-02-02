@@ -146,11 +146,16 @@
             width: 400px; /* Adjust the width as needed */
             border-radius: 8px;
             margin: 0px, 20px, 0px; /* Adjust the spacing between images */
+            transition: transform 0.3s ease-in-out;
             
         }
 
         .project-cell p {
             color: white;
+        }
+
+        .project-cell:hover img {
+            transform: scale(1.2); /* Adjust the scale factor as needed */
         }
         
 
